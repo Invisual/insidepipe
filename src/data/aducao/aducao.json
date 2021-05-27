@@ -3,8 +3,8 @@
     "img": "../../images/services/aducao/banner-01.jpg",
     "title": "SISTEMAS DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA",
     "icon": "../../images/services/aducao/icon.svg",
-    "btnLink": "/servicos/sistemas-de-aducao",
-    "btnTxt": "VER PROJETOS"
+    "btnLink": "",
+    "btnTxt": ""
   },
   "banner2": {
     "img": "../../images/services/drenagem/banner-02.jpg",

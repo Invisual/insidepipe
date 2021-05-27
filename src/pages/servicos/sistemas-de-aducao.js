@@ -9,7 +9,7 @@ import TxtLnk from "../../components/types/txtLnk"
 const AducaoPage = ({data}) => (
   <Layout servicesOpen>
     <Seo title="Sistemas de Adução"/>
-    <IconLnk data={data.drenagemJson.intro}/>
+    <IconLnk data={data.aducaoJson.intro}/>
     <div style={{height: "10px"}}/>
   </Layout>
 )
