@@ -6,7 +6,7 @@ import Seo from "../../components/layout/seo"
 import IconLnk from "../../components/types/iconLnk"
 import TxtLnk from "../../components/types/txtLnk"
 
-import Slider from "react-slick";
+import Slider from "react-slick"
 import styled from "styled-components"
 
 const DrenagemPage = ({data}) => {

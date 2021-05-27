@@ -5,7 +5,7 @@ import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
 import TxtLnk from "../components/types/txtLnk"
 
-import Slider from "react-slick";
+import Slider from "react-slick"
 import styled from "styled-components"
 
 const AguaPage = ({data}) => {
