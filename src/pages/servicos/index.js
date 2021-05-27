@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../../components/layout/layout"
 import Seo from "../../components/layout/seo"
-import IconLnk from "../../components/types/IconLnk"
+import IconLnk from "../../components/types/iconLnk"
 
 const ServicosPage = ({data}) => (
   <Layout servicesOpen>
