@@ -42,6 +42,8 @@ const AguaPage = ({data}) => {
   )
 }
 
+export default AguaPage
+
 const StyledSlider = styled.div`
   position: relative;
   width: 100%;
@@ -75,8 +77,6 @@ const StyledSlider = styled.div`
     }
   }
 `
-
-export default AguaPage
 
 export const Json = graphql`
   query agua {

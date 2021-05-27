@@ -7,17 +7,17 @@
     "btnTxt": ""
   },
   "desc": {
-    "img": "../../images/services/diagnostico/banner-01.jpg",
-    "title": "Soluções Inovadoras",
-    "text": ["Apresentamos soluções tecnologicamente inovadoras e que causem o mínimo impacto junto das populações."],
-    "btnLink": "/",
-    "btnTxt": "SERVIÇOS"
+    "img": "../../images/services/diagnostico/banner-02.jpg",
+    "title": "Consultoria",
+    "text": ["Apresentamos soluções chave no setor de reabilitação sem abertura de vala. Com base na informação recolhida pela Inspeção Vídeo CCTV e pelos Ensaios de Estanquidade, apresentamos propostas de reabilitação."],
+    "btnLink": "",
+    "btnTxt": ""
   },
-  "other": {
-    "img": "../../images/services/diagnostico/banner-01.jpg",
-    "title": "DIAGNÓSTICO E CONSULTORIA",
-    "icon": "../../images/services/diagnostico/icon.svg",
-    "btnLink": "/servicos/diagnostico-e-consultoria",
-    "btnTxt": "VER PROJETOS"
+  "video": {
+    "img": "../../images/services/diagnostico/banner-03.jpg",
+    "title": "Inspeção vídeo CCTV (de acordo com a EN13508-1 e EN 13508-2)",
+    "text": ["Efetuam-se em tubagens de drenagem de águas residuais e pluviais, a todo o tipo de obstáculos, como raízes, juntas deslocadas, pedras e outras, que possam impedir o bom funcionamento do sistema."],
+    "btnLink": "",
+    "btnTxt": "VER VÍDEO"
   }
 }

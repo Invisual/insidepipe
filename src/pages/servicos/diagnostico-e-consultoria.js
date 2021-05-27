@@ -11,7 +11,9 @@ const DiagEConsPage = ({data}) => (
     <Seo title="Diagnóstico e Consultoria"/>
     <IconLnk data={data.diagnosticoJson.intro}/>
     <div style={{height: "10px"}}/>
-    <TxtLnk data={data.diagnosticoJson.desc}/>
+    <TxtLnk data={data.diagnosticoJson.desc} dark/>
+    <div style={{height: "10px"}}/>
+    <TxtLnk data={data.diagnosticoJson.video} dark inv/>
   </Layout>
 )
 
@@ -39,6 +41,21 @@ export const Json = graphql`
         btnTxt
       }
       desc{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+      video{
         img{
           childImageSharp{
             gatsbyImageData(
