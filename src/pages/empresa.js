@@ -5,10 +5,10 @@ import Layout from "../components/layout/layout"
 import Seo from "../components/layout/seo"
 import TxtLnk from "../components/types/txtLnk"
 
-const IndexPage = ({data}) => (
+const EmpresaPage = ({data}) => (
   <Layout>
-    <Seo title="Home"/>
-    {data.indexJson.homelinks.map((data, i)=>(
+    <Seo title="Empresa"/>
+    {data.empresaJson.homelinks.map((data, i)=>(
       <div key={i}>
         {i!==0 && <div style={{height: "10px"}}/>}
         <TxtLnk data={data} light/>
@@ -17,11 +17,11 @@ const IndexPage = ({data}) => (
   </Layout>
 )
 
-export default IndexPage
+export default EmpresaPage
 
 export const Json = graphql`
-  query index {
-    indexJson{
+  query empresa {
+    empresaJson{
       homelinks{
         img{
           childImageSharp{

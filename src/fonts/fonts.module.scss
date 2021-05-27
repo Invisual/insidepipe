@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'abeatbyKaiRegular';
+  src: url('./abeatbyKaiRegular.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Avenir-Heavy';
+  src: url('./Avenir-Heavy.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('./Avenir-Book.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Avenir-Medium';
+  src: url('./Avenir-Medium.ttf') format('truetype');
+}
+
+// USAGE
+.abbK {
+  font-family: 'abeatbyKaiRegular', sans-serif;
+  // font-feature-settings: "lnum";
+}
+.aH {
+  font-family: 'Avenir-Heavy', sans-serif;
+  // font-feature-settings: "lnum";
+}
+.aB {
+  font-family: 'Avenir-Book', sans-serif;
+  // font-feature-settings: "lnum";
+}
+.aM {
+  font-family: 'Avenir-Medium', sans-serif;
+  // font-feature-settings: "lnum";
+}

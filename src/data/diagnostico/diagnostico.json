@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "img": "../../images/services/diagnostico/banner-01.jpg",
+    "title": "DIAGNÓSTICO E CONSULTORIA",
+    "icon": "../../images/services/diagnostico/icon.svg",
+    "btnLink": "",
+    "btnTxt": ""
+  },
+  "desc": {
+    "img": "../../images/services/diagnostico/banner-01.jpg",
+    "title": "Soluções Inovadoras",
+    "text": ["Apresentamos soluções tecnologicamente inovadoras e que causem o mínimo impacto junto das populações."],
+    "btnLink": "/",
+    "btnTxt": "SERVIÇOS"
+  },
+  "other": {
+    "img": "../../images/services/diagnostico/banner-01.jpg",
+    "title": "DIAGNÓSTICO E CONSULTORIA",
+    "icon": "../../images/services/diagnostico/icon.svg",
+    "btnLink": "/servicos/diagnostico-e-consultoria",
+    "btnTxt": "VER PROJETOS"
+  }
+}

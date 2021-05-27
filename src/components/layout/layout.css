@@ -1,0 +1,96 @@
+/****** Elad Shechter's RESET com extras(body margin e a=block)*******/
+/*** box sizing border-box for all elements ***/
+body{margin:0;position:relative;text-rendering: optimizeLegibility;width: 100%;overscroll-behavior-y: none; overflow-x: hidden;}
+*,
+*::before,
+*::after{box-sizing:border-box;}
+a{display:block; text-decoration:none; color:inherit; cursor:pointer; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+button{all:unset; cursor:pointer !important; -webkit-tap-highlight-color: rgba(0,0,0,0);}
+figure{margin:0;}
+input::-moz-focus-inner {border:0; padding:0; margin:0;}
+input, textarea{outline:none;}
+ul, ol, dd{margin:0; padding:0; list-style:none;}
+h1, h2, h3, h4, h5, h6, input{margin:0; font-size:inherit; font-weight:inherit;}
+p{margin:0;}
+cite {font-style:normal;}
+fieldset{border-width:0; padding:0; margin:0;}
+
+
+h1{
+  font-size: calc(66px + 16 * (100vw - 1920px) / 640);
+}
+h2{
+  font-size: calc(32px + 8 * (100vw - 1920px) / 640);
+}
+h3{
+  font-size: calc(19px + 6 * (100vw - 1920px) / 640);
+}
+h4, input, textarea{
+  font-size: calc(19px + 6 * (100vw - 1920px) / 640);
+}
+h5{
+  font-size: calc(14px + 4 * (100vw - 1920px) / 640);
+  letter-spacing: 0.1em;
+}
+p, a, button, .small-title{
+  font-size: calc(16px + 4 * (100vw - 1920px) / 640);
+}
+p, h5{line-height: 1.5em;}
+span{
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+span a{
+  font-size: inherit;
+  letter-spacing: inherit;
+}
+.small{
+  font-size: calc(12px + 4 * (100vw - 1920px) / 640);
+  letter-spacing: 0.05em;
+}
+.big{
+  font-size: calc(14px + 4 * (100vw - 1920px) / 640);
+  letter-spacing: 0.2em;
+}
+img{ 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+button, a{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  outline: none;
+  user-select: none;
+}
+@media only screen and (min-width: 2560px){
+  h1{font-size: 82px;}
+  h2{font-size: 40px;}
+  h3{font-size: 25px;}
+  h4, input, textarea{font-size: 25px;}
+  h5{font-size: 18px;}
+  p, a, button, .small-title{font-size: 20px;}
+  .small{font-size: 15px;}
+  .big{font-size: 18px;}
+}
+@media only screen and (max-width: 1920px) and (min-width: 769px){
+  h1{font-size: calc(42px + 20 * (100vw - 768px) / 1152);}
+  h2{font-size: calc(20px + 15 * (100vw - 768px) / 1152);}
+  h3{font-size: calc(14px + 5 * (100vw - 768px) / 1152);}
+  h4, input, textarea{font-size: calc(14px + 5 * (100vw - 768px) / 1152);}
+  h5{font-size: calc(12px + 2 * (100vw - 768px) / 1152);}
+  p, a, button, .small-title{font-size: calc(13px + 3 * (100vw - 768px) / 1152);}
+  .small{font-size: calc(8px + 4 * (100vw - 768px) / 1152);}
+  .big{font-size: calc(12px + 2 * (100vw - 768px) / 1152);}
+}
+@media only screen and (max-width: 768px){
+  h1{font-size: calc(41px + 59 * (100vw - 320px) / 448);}
+  h2{font-size: calc(26px + 38 * (100vw - 320px) / 448); letter-spacing: -0.04em;}
+  h3{font-size: calc(18px + 8 * (100vw - 320px) / 448);}
+  h4, input, textarea{font-size: calc(12px + 6 * (100vw - 320px) / 448);}
+  h5{font-size: calc(12px + 4 * (100vw - 320px) / 448);}
+  p, a, button, .small-title{font-size: calc(10px + 15 * (100vw - 320px) / 448);}
+  .small{font-size: calc(8px + 12 * (100vw - 320px) / 448);}
+  .big{font-size: calc(11px + 3 * (100vw - 320px) / 448);}
+}

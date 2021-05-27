@@ -1,0 +1,39 @@
+{
+  "homelinks": [
+    {
+      "img": "../../images/empresa/banner-01.jpg",
+      "title": "Empresa de Referência",
+      "text": ["Somos uma empresa de reabilitação de condutas sem abertura de vala."],
+      "btnLink": "/empresa",
+      "btnTxt": "EMPRESA"
+    },
+    {
+      "img": "../../images/services/diagnostico/banner-01.jpg",
+      "title": "Soluções Inovadoras",
+      "text": ["Apresentamos soluções tecnologicamente inovadoras e que causem o mínimo impacto junto das populações."],
+      "btnLink": "/servicos",
+      "btnTxt": "SERVIÇOS"
+    },
+    {
+      "img": "../../images/water/banner-01.jpg",
+      "title": "Um bem Essencial",
+      "text": ["A água é um bem precioso, património de todos, que deve ser preservado e consumido de forma racional."],
+      "btnLink": "/agua",
+      "btnTxt": "ÁGUA"
+    },
+    {
+      "img": "../../images/news/banner-01.jpg",
+      "title": "XXXXXXXXX",
+      "text": ["xxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxx xxxxxxxxxxxx xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx"],
+      "btnLink": "/noticias",
+      "btnTxt": "NOTÍCIAS"
+    },
+    {
+      "img": "../../images/contactos/banner-01.jpg",
+      "title": "Contrate os nossos serviços",
+      "text": ["xxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxxx xxxxxxxxxxxxxx xxxxxxxxxxxxxxx xxxxxxxxxxxx xxxx xxxxxxxxx xxxxxxxxx xxxxxxxxx"],
+      "btnLink": "/contactos",
+      "btnTxt": "CONTACTOS"
+    }
+  ]
+}

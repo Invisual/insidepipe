@@ -1,0 +1,49 @@
+{
+  "sidemenu": {
+    "links": [
+      {
+        "link": "/empresa",
+        "linkTxt": "EMPRESA"
+      },
+      {
+        "link": "/servicos",
+        "linkTxt": "SERVIÇOS",
+        "extraLinks": [
+          {
+            "link": "/servicos/diagnostico-e-consultoria",
+            "linkTxt": "DIAGNÓSTICO E CONSULTORIA"
+          },
+          {
+            "link": "/servicos/sistemas-de-drenagem",
+            "linkTxt": "SISTEMAS DE DRENAGEM DE ÁGUAS RESIDUAIS, DOMÉSTICAS E PLUVIAIS"
+          },
+          {
+            "link": "/servicos/sistemas-de-aducao",
+            "linkTxt": "SISTEMA DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA"
+          },
+          {
+            "link": "/servicos/caixas-de-visita",
+            "linkTxt": "CAIXAS DE VISITA"
+          }
+        ]
+      },
+      {
+        "link": "/agua",
+        "linkTxt": "ÁGUA"
+      },
+      {
+        "link": "/noticias",
+        "linkTxt": "NOTÍCIAS"
+      },
+      {
+        "link": "/contactos",
+        "linkTxt": "CONTACTOS"
+      }
+    ]
+  },
+  "footer":{
+    "address": ["Parque Empresarial Quimiparque Estarreja","3860-680 Estarreja - Portugal","Recrutamento"],
+    "privacy": ["Política de Cookies","Política de Privacidade","Livro de Reclamações"],
+    "cofinan": "Cofinanciado por:"
+  }
+}
