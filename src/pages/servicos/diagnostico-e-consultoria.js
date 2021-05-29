@@ -40,7 +40,7 @@ export const Json = graphql`
         btnLink
         btnTxt
       }
-      desc{
+      banner2{
         img{
           childImageSharp{
             gatsbyImageData(

@@ -8,12 +8,6 @@ import TxtLnk from "../../components/types/txtLnk"
 const NoticiasPage = ({data}) => (
   <Layout>
     <Seo title="Notícias"/>
-    {data.noticiasJson.homelinks.map((data, i)=>(
-      <div key={i}>
-        {i!==0 && <div style={{height: "10px"}}/>}
-        <TxtLnk data={data} light/>
-      </div>
-    ))}
   </Layout>
 )
 
