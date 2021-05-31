@@ -22,8 +22,23 @@ const Layout = ({ children, servicesOpen }) => {
         }
         footer{
           address
+          recrut
           privacy
           cofinan
+        }
+        recrut{
+          title
+          name
+          dob
+          phone
+          email
+          degree
+          school
+          motive
+          notes
+          cv
+          legenda
+          btn
         }
       }
     }
@@ -34,7 +49,7 @@ const Layout = ({ children, servicesOpen }) => {
       <Navbar sidemenu={data.globalJson.sidemenu} servicesOpen={servicesOpen}/>
       <div className="nav-margin" style={{height: "100px", width: "100%", backgroundColor: "#006a71"}}/>
       {children}
-      <Footer data={data.globalJson.footer}/>
+      <Footer data={data.globalJson.footer} recrutData={data.globalJson.recrut}/>
     </main>
   )
 }

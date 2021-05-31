@@ -11,7 +11,7 @@ const DiagEConsPage = ({data}) => (
     <Seo title="Diagnóstico e Consultoria"/>
     <IconLnk data={data.diagnosticoJson.intro}/>
     <div style={{height: "10px"}}/>
-    <TxtLnk data={data.diagnosticoJson.desc} dark/>
+    <TxtLnk data={data.diagnosticoJson.banner2} dark/>
     <div style={{height: "10px"}}/>
     <TxtLnk data={data.diagnosticoJson.video} dark inv/>
   </Layout>
@@ -29,7 +29,6 @@ export const Json = graphql`
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
               width: 3840
-              quality: 100
             )
           }
         }

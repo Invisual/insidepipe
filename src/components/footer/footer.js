@@ -1,13 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
+import { CSSTransition } from "react-transition-group"
+import useLockBodyScroll from "../../custom/use-lock-body-scroll"
+
 import styled from "styled-components"
 import * as font from "../../fonts/fonts.module.scss"
+
+import Popup from "../popups/recrut"
+
 import logo from "../../images/global/logo.svg"
 import uniao from "../../images/global/footer/uniao.svg"
 import port from "../../images/global/footer/port2020.svg"
 import centro from "../../images/global/footer/centro2020.svg"
 
-const Footer = ({ data }) => {
+const Footer = ({ data, recrutData }) => {
+  const [recrut, setRecrut] = useState(false);
+  // useLockBodyScroll(recrut);
 
   return (
     <StyledFooter>
@@ -19,7 +27,12 @@ const Footer = ({ data }) => {
         {data.address.map((data, i)=>(
           <p className={font.aB} key={"address" + i}>{data}</p>
         ))}
+        <button onClick={()=>{setRecrut(!recrut)}} className={font.aB}>{data.recrut}</button>
+        <CSSTransition in={recrut===true} timeout={350} classNames={"switch"} unmountOnExit>
+          <Popup data={recrutData} setPopup={setRecrut}/>
+        </CSSTransition>
       </div>
+
       <div className="footer-col">
         {data.privacy.map((data, i)=>(
           <p className={font.aB} key={"privacy" + i}>{data}</p>
@@ -70,5 +83,20 @@ const StyledFooter = styled.footer`
         height: 100%;
       }
     }
+  }
+
+  .switch-enter{
+    opacity: 0 !important;
+  }
+  .switch-enter-active{
+    opacity: 1 !important;
+    transition: all 350ms ease-out;
+  }
+  .switch-exit{
+    opacity: 1 !important;
+  }
+  .switch-exit-active{
+    opacity: 0 !important;
+    transition: all 350ms ease-out;
   }
 `

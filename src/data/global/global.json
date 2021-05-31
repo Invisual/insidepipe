@@ -42,8 +42,30 @@
     ]
   },
   "footer":{
-    "address": ["Parque Empresarial Quimiparque Estarreja","3860-680 Estarreja - Portugal","Recrutamento"],
-    "privacy": ["Política de Cookies","Política de Privacidade","Livro de Reclamações"],
+    "address": [
+      "Parque Empresarial Quimiparque Estarreja",
+      "3860-680 Estarreja - Portugal"
+    ],
+    "recrut": "Recrutamento",
+    "privacy": [
+      "Política de Cookies",
+      "Política de Privacidade",
+      "Livro de Reclamações"
+    ],
     "cofinan": "Cofinanciado por:"
+  },
+  "recrut": {
+    "title": "QUER FAZER PARTE DA NOSSA EQUIPA?",
+    "name": "NOME*",
+    "dob": "DATA NASCIMENTO*",
+    "phone": "TELEMÓVEL*",
+    "email": "EMAIL*",
+    "degree": "ESCOLARIEDADE*",
+    "school": "INSTITUIÇÃO ESCOLAR",
+    "motive": "MOTIVO DE CANDIDATURA*",
+    "notes": "OBSERVAÇÕES",
+    "cv": ["CURRICULUM","ADICIONAR CURRICULUM"],
+    "legenda": "* Campos de preenchimento obrigatório",
+    "btn": "CANDIDATAR-ME"
   }
 }
