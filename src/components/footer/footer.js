@@ -25,9 +25,9 @@ const Footer = ({ data, recrutData }) => {
 
       <div className="footer-col">
         {data.address.map((data, i)=>(
-          <p className={font.aB} key={"address" + i}>{data}</p>
+          <p className={font.aB + " small"} key={"address" + i}>{data}</p>
         ))}
-        <button onClick={()=>{setRecrut(!recrut)}} className={font.aB}>{data.recrut}</button>
+        <button onClick={()=>{setRecrut(!recrut)}} className={font.aB + " small"}>{data.recrut}</button>
         <CSSTransition in={recrut===true} timeout={350} classNames={"switch"} unmountOnExit>
           <Popup data={recrutData} setPopup={setRecrut}/>
         </CSSTransition>
@@ -35,12 +35,12 @@ const Footer = ({ data, recrutData }) => {
 
       <div className="footer-col">
         {data.privacy.map((data, i)=>(
-          <p className={font.aB} key={"privacy" + i}>{data}</p>
+          <p className={font.aB + " small"} key={"privacy" + i}>{data}</p>
         ))}
       </div>
 
       <div className="footer-col cofinan">
-        <p className={font.aB}>{data.cofinan}</p>
+        <p className={font.aB + " small"}>{data.cofinan}</p>
         <p className="icons">
           <img src={centro} alt="Centro2020"/>
           <img src={port} alt="Portugal2020"/>

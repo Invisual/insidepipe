@@ -74,9 +74,7 @@ const StyledMenu = styled(Div100vh)`
   right: 0;
   top: 0;
   z-index: 6;
-  width: 25vw;
-  max-width: 550px;
-  min-width: 300px;
+  width: 30vw;
   transition: transform 600ms ease-out;
   background-color: #ffffff;
   color: #006a71;
@@ -84,6 +82,9 @@ const StyledMenu = styled(Div100vh)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  a:hover, .services-btn:hover{
+    opacity: 1 !important;
+  }
   .close-btn{
     position: absolute;
     top: 50px;
@@ -95,7 +96,7 @@ const StyledMenu = styled(Div100vh)`
   }
   .content{
     position: relative;
-    padding: 20vh 5vw 0;
+    padding: 18vh 7vw 0;
     width: 100%;
     height: fit-content;
     display: flex;

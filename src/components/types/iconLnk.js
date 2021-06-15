@@ -23,7 +23,7 @@ export default IconLnk
 
 const StyledIconLnk = styled.div`
   position: relative;
-  width: 25%;
+  width: 28%;
   margin-left: 5%;
   color: #ffffff;
   .title{
@@ -32,7 +32,7 @@ const StyledIconLnk = styled.div`
     margin-bottom: 2em;
     .icon{
       height: 3em;
-      margin-right: 2em;
+      margin-right: 1.5em;
     }
   }
 `

@@ -111,7 +111,7 @@ const Popup = ({ data, setPopup }) => {
               <div className="file">
                 <input type="file" ref={fileRef} onChange={(e)=>setFiles(e.target.files[0])}/>
                 <Button className={font.aH + " small input"} dark onClick={()=>{fileRef.current.click()}}>{data.cv[0]}</Button>
-                <p className={font.aH + " green"}>{fileRef.current && fileRef.current.files.length>0 ? fileRef.current.files[0].name : data.cv[1]}</p>
+                <p className={font.aH + " green small"}>{fileRef.current && fileRef.current.files.length>0 ? fileRef.current.files[0].name : data.cv[1]}</p>
               </div>
               <p className={font.aH + " small"}>{data.legenda}</p>
             </div>
