@@ -19,6 +19,14 @@ const Layout = ({ children, servicesOpen }) => {
               linkTxt
             }
           }
+          created
+          newsletter{
+            call
+            title
+            name
+            email
+            btn
+          }
         }
         footer{
           address

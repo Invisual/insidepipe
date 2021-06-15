@@ -5,6 +5,7 @@ import AnimateHeight from 'react-animate-height';
 import useEventListener from "../../custom/use-event-listener"
 import styled from "styled-components"
 import * as font from "../../fonts/fonts.module.scss"
+import { Button } from "../layout/linkBtns"
 import closeBtn from "../../images/global/menu-close.svg"
 import openServices from "../../images/global/serv-down.svg"
 import linked from "../../images/global/socials/linked.svg"
@@ -12,13 +13,14 @@ import insta from "../../images/global/socials/insta.svg"
 import face from "../../images/global/socials/face.svg"
 import tube from "../../images/global/socials/tube.svg"
 
-
-const Sidemenu = ({data, open, close, servicesOpen}) => {
+const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
   const [services, setServices] = useState(servicesOpen);
 
   useEventListener("mousedown", (e) => sair(e));
   function sair(e) {
-    !document.querySelector('#sidemenu').contains(e.target) && close(false);
+    if(!newsletter[0]){
+      !document.querySelector('#sidemenu').contains(e.target) && close(false);
+    }
   }
 
   return(
@@ -51,13 +53,14 @@ const Sidemenu = ({data, open, close, servicesOpen}) => {
       </div>
 
       <div className="socials">
+        <Button dark className={font.aH + " menu-newsletter"} onClick={()=>{newsletter[1](!newsletter[0])}}>{data.newsletter.call}</Button>
         <div className="icons">
           <a href="/404" className="iconLink"><img src={linked} alt="LinkedIn"/></a>
           <a href="/404" className="iconLink"><img src={insta} alt="Instagram"/></a>
           <a href="/404" className="iconLink"><img src={face} alt="Facebook"/></a>
           <a href="/404" className="iconLink"><img src={tube} alt="Youtube"/></a>
         </div>
-        <p className={font.aH + " menu-copyright"}>CREATED: INVISUAL.PT</p>
+        <a href={data.created[0]} noreferrer noopener target="_blank" className={font.aH + " menu-copyright"}>{data.created[1]}</a>
       </div>
     </StyledMenu>
   )
@@ -136,10 +139,14 @@ const StyledMenu = styled(Div100vh)`
         img{height: 100%;}
       }
     }
+    .menu-newsletter{
+      margin: 2em 0;
+      padding: 0.5em 1em;
+    }
     .menu-copyright{
       position: relative;
       width: fit-content;
-      font-size: 8px;
+      font-size: 10px;
       margin-top: 15px;
     }
   }

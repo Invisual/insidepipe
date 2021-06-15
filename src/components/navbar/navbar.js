@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from "react"
 import useEventListener from "../../custom/use-event-listener"
 import { Link } from "gatsby"
-
+import { CSSTransition } from "react-transition-group"
 import styled from "styled-components"
+import Newsletter from "../popups/newsletter"
 
 import logo from "../../images/global/logo.svg"
 import menu from "../../images/global/menu_hamb.svg"
@@ -14,6 +15,7 @@ const Navbar = ({ ...props }) => {
   const [prevScrollPos, setPrevScrollPos] = useState("");
   const [currentScrollPos, setCurrentScrollPos] = useState("");
 
+  const [newsletter, setNewsletter] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -40,7 +42,10 @@ const Navbar = ({ ...props }) => {
       <button className="menuBtn" onClick={()=>{setMenuOpen(!menuOpen)}}>
         <img src={menu} alt="Menu"/>
       </button>
-      <Sidemenu data={props.sidemenu} open={menuOpen} close={setMenuOpen} servicesOpen={props.servicesOpen}/>
+      <Sidemenu data={props.sidemenu} open={menuOpen} close={setMenuOpen} servicesOpen={props.servicesOpen} newsletter={[newsletter, setNewsletter]}/>
+      <CSSTransition in={newsletter===true} timeout={350} classNames={"switch"} unmountOnExit>
+        <Newsletter data={props.sidemenu.newsletter} setPopup={setNewsletter}/>
+      </CSSTransition>
     </StyledNav>
   )
 }
@@ -68,5 +73,20 @@ const StyledNav = styled.div`
     padding: 15px;
     transform: translateX(15px);
     img{height: 15px;}
+  }
+
+  .switch-enter{
+    opacity: 0 !important;
+  }
+  .switch-enter-active{
+    opacity: 1 !important;
+    transition: all 350ms ease-out;
+  }
+  .switch-exit{
+    opacity: 1 !important;
+  }
+  .switch-exit-active{
+    opacity: 0 !important;
+    transition: all 350ms ease-out;
   }
 `

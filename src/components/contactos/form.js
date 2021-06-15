@@ -49,7 +49,6 @@ const Form = ({data}) => {
     }
   }
   const successRes = (res) => {
-    console.log(res);
     setSuccess(true);
   }
 

@@ -39,7 +39,15 @@
         "link": "/contactos",
         "linkTxt": "CONTACTOS"
       }
-    ]
+    ],
+    "created": ["https://invisual.pt", "CREATED: INVISUAL.PT"],
+    "newsletter": {
+      "call": "Newsletter",
+      "title": "Subscreve a nossa newsletter!",
+      "name": "NOME*",
+      "email": "EMAIL*",
+      "btn": "Subscrever"
+    }
   },
   "footer":{
     "address": [
