@@ -99,4 +99,18 @@ const StyledFooter = styled.footer`
     opacity: 0 !important;
     transition: all 350ms ease-out;
   }
+
+  @media only screen and (max-width: 768px){
+    flex-direction: column;
+    align-items: center;
+    padding: 10vw 20px 0;
+    .footer-col, .logo{
+      margin: 0 0 10vw;
+      text-align: center;
+    }
+    .cofinan{
+      align-self: unset;
+      text-align: center;
+    }
+  }
 `

@@ -98,9 +98,9 @@ const StyledMenu = styled(Div100vh)`
     position: relative;
     padding: 18vh 7vw 0;
     width: 100%;
-    height: fit-content;
     display: flex;
     flex-direction: column;
+    flex: 0 0 auto;
     justify-content: space-around;
     .menu-links{
       text-align: right;

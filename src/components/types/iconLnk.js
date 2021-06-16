@@ -35,4 +35,8 @@ const StyledIconLnk = styled.div`
       margin-right: 1.5em;
     }
   }
+
+  @media only screen and (max-width: 768px){
+    width: 80%;
+  }
 `

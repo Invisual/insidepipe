@@ -56,4 +56,10 @@ const StyledContainer = styled.div`
       }
     }
   }
+
+  @media only screen and (max-width: 768px){
+    flex-direction: column;
+    height: unset;
+    padding: 10vw;
+  }
 `

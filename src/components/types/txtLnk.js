@@ -46,4 +46,14 @@ const StyledTxtLnk = styled.div`
   .dark-title{
     color: #006a71;
   }
+  
+  @media only screen and (max-width: 768px){
+    width: 80%;
+    ${props =>
+      props.inv &&
+      css`
+        margin-left: 5%;
+      `
+    }
+  }
 `

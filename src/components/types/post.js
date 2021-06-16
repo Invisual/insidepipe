@@ -12,7 +12,7 @@ const Post = ({data, slug, selected, text}) => {
   
   const setPost = () => {
     if(!open && typeof window !== 'undefined'){
-      window.location.href = "/noticias#" + slug;
+      window.location.hash = slug;
     }
     setOpen(!open);
   }
@@ -45,6 +45,10 @@ const StyledPost = styled.div`
   .title{
     margin-bottom: 1em;
   }
+
+  @media only screen and (max-width: 768px){
+    width: 80%;
+  }
 `
 
 const StyledContent = styled.div`
@@ -56,5 +60,10 @@ const StyledContent = styled.div`
   h3{
     color: #006a71;
     margin-bottom: 1em;
+  }
+
+  @media only screen and (max-width: 768px){
+    width: 80%;
+    margin: 10vw auto;
   }
 `

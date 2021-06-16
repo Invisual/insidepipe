@@ -133,4 +133,9 @@ const StyledContainer = styled.div`
     opacity: 0 !important;
     transition: all 350ms ease-out;
   }
+
+  @media only screen and (max-width: 768px){
+    align-self: flex-end;
+    margin: 10vw 0 0;
+  }
 `
