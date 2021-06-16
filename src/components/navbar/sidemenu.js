@@ -115,6 +115,7 @@ const StyledMenu = styled(Div100vh)`
     }
     .services-btn{
       display: flex;
+      flex: 0 0 auto;
       width: 100%;
       .servBtn{
         width: 0.6em;
