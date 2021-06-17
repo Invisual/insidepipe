@@ -100,7 +100,6 @@ const StyledMenu = styled(Div100vh)`
     width: 100%;
     display: flex;
     flex-direction: column;
-    flex: 0 0 auto;
     justify-content: space-around;
     .menu-links{
       text-align: right;
@@ -114,8 +113,7 @@ const StyledMenu = styled(Div100vh)`
       opacity: 1;
     }
     .services-btn{
-      display: flex;
-      flex: 0 0 auto;
+      display: inline-block;
       width: 100%;
       .servBtn{
         width: 0.6em;
