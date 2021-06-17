@@ -15,4 +15,7 @@ const StyledMap = styled.div`
   position: relative;
   width: 100%;
   height: 36.6vw;
+  @media only screen and (max-width: 768px){
+    height: 80vw;
+  }
 `

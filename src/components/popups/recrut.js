@@ -200,4 +200,14 @@ const StyledPopup = styled.div`
     align-self: center;
     margin-top: 3em;
   }
+
+  @media only screen and (max-width: 768px){
+    .clickbox{
+      width: 80%;
+    }
+    .flex-input{
+      flex-direction: column;
+      gap: 0;
+    }
+  }
 `

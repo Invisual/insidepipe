@@ -75,6 +75,9 @@ const StyledMenu = styled(Div100vh)`
   top: 0;
   z-index: 6;
   width: 30vw;
+  @media only screen and (max-width: 768px){
+    width: 100vw;
+  }
   transition: transform 600ms ease-out;
   background-color: #ffffff;
   color: #006a71;

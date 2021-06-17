@@ -96,6 +96,9 @@ const StyledPopup = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    @media only screen and (max-width: 768px){
+      width: 80%;
+    }
   }
   .title{
     color: #006a71;

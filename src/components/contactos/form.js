@@ -137,5 +137,6 @@ const StyledContainer = styled.div`
   @media only screen and (max-width: 768px){
     align-self: flex-end;
     margin: 10vw 0 0;
+    width: 80vw;
   }
 `
