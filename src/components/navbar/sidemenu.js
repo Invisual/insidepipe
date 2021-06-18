@@ -43,7 +43,7 @@ const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
               </button>
               <AnimateHeight duration={600} height={services ? "auto" : 0} className="services">
               {data.extraLinks.map((data, i)=>(
-                <Link to={data.link} className={font.aH + " menu-links small"} activeClassName={font.aB + " menu-links-active"} key={"sidemenu-services-link-" + i}>
+                <Link to={data.link} className={font.aH + " menu-links small"} activeClassName={font.aH + " menu-links-active"} key={"sidemenu-services-link-" + i}>
                   {data.linkTxt}
                 </Link>
               ))}
