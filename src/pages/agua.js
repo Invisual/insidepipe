@@ -8,7 +8,42 @@ import TxtLnk from "../components/types/txtLnk"
 import Slider from "react-slick"
 import styled from "styled-components"
 
+import LArrow from "../images/left-arrow-w.svg"
+import RArrow from "../images/right-arrow-w.svg"
+
 const AguaPage = ({data}) => {
+
+  const NextArrow = (props) => {
+    const { className, style, onClick } = props;
+    return(
+      <StyledArrow className={className} style={{ ...style, right: "1vw" }} onClick={onClick}>
+        <img src={RArrow}/>
+      </StyledArrow>
+    )
+  }
+  const PrevArrow = (props) => {
+    const { className, style, onClick } = props;
+    return(
+      <StyledArrow className={className} style={{ ...style, left: "1vw" }} onClick={onClick}>
+        <img src={LArrow}/>
+      </StyledArrow>
+    )
+  }
+  const StyledArrow = styled.button`
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  opacity: 0.5;
+  transition: opacity 200ms ease-out;
+  :hover{
+    opacity: 1;
+  }
+    img{
+      width: 3vw;
+      height: 3vw;
+    }
+  `
 
   const settings = {
     dots: true,
@@ -17,7 +52,9 @@ const AguaPage = ({data}) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    arrows: false,
+    arrows: true,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>
   };
   

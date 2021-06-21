@@ -5,6 +5,7 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/layout/seo"
 import IconLnk from "../../components/types/iconLnk"
 import TxtLnk from "../../components/types/txtLnk"
+import Video from "../../components/types/video"
 
 const DiagEConsPage = ({data}) => (
   <Layout servicesOpen>
@@ -13,7 +14,7 @@ const DiagEConsPage = ({data}) => (
     <div style={{height: "10px"}}/>
     <TxtLnk data={data.diagnosticoJson.banner2} dark/>
     <div style={{height: "10px"}}/>
-    <TxtLnk data={data.diagnosticoJson.video} dark inv/>
+    <Video data={data.diagnosticoJson.video} dark inv/>
   </Layout>
 )
 
