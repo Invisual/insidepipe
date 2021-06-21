@@ -43,7 +43,7 @@ const Footer = ({ data, recrutData }) => {
         <p className={font.aB + " small"}>{data.cofinan}</p>
         <a href="/assets/ficha-de-projeto-insidepipe.pdf" noreferrer noopener target="_blank" className="icons">
           <img src={centro} alt="Centro2020"/>
-          <img src={port} alt="Portugal2020"/>
+          <img src={port} alt="Portugal2020" style={{margin: "0 1em"}}/>
           <img src={uniao} alt="UE"/>
         </a>
       </div>
@@ -76,7 +76,7 @@ const StyledFooter = styled.footer`
     align-self: flex-start;
     .icons{
       display: flex;
-      gap: 2em;
+      /* gap: 2em; */
       margin-top: 1em;
       height: 1.6em;
       img{
