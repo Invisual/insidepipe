@@ -1,10 +1,17 @@
-import React from "react"
+import React, { useRef } from "react"
 import styled, { css } from "styled-components"
 import * as font from "../../fonts/fonts.module.scss"
 import Container from "../bannerMOD/bannerMOD"
-import ButtonLink from "../layout/linkBtns"
+import { Button } from "../layout/linkBtns"
 
 const Video = ({data, dark, inv}) => {
+
+  const vid = useRef(null);
+  const playVideo = () => {
+    vid.current.style.display = "block";
+    setTimeout(function(){ vid.current.style.opacity = "1"; }, 10);
+  }
+
   return(
     <Container img={data.img.childImageSharp.gatsbyImageData}>
       <StyledVideo inv={inv && +inv}>
@@ -14,13 +21,13 @@ const Video = ({data, dark, inv}) => {
             <span className={i%2!==0 ? font.aM + " bold" : undefined} key={"paragraph" + i}>{data}</span>
           ))}
         </p>
-        <ButtonLink to={data.btnLink} className={font.aH} dark={dark && +dark}>{data.btnTxt}</ButtonLink>
+        <Button onClick={playVideo} className={font.aH} dark={dark && +dark}>{data.btnTxt}</Button>
       </StyledVideo>
-      <Videoframe width="100%" height="100%" src={data.btnLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Videoframe>
+
+      <Videoframe  ref={vid} width="100%" height="100%" src={data.btnLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Videoframe>
     </Container>
   )
 }
-
 export default Video
 
 const Videoframe = styled.iframe`
@@ -29,6 +36,9 @@ const Videoframe = styled.iframe`
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  display: none;
+  transition: opacity 200ms ease-out;
 `
 
 const StyledVideo = styled.div`

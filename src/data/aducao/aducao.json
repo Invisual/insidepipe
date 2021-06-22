@@ -7,7 +7,7 @@
     "btnTxt": ""
   },
   "banner2": {
-    "img": "../../images/services/drenagem/banner-02.jpg",
+    "img": "../../images/services/aducao/banner-02.jpg",
     "title": "Reabilitação contínua pelo método CIPP - Cured In Place Pipe",
     "text": ["Utiliza-se em condutas que apresentam patologias que se repetem sistematicamente ao longo de toda a tubagem ou que possam colocar em causa o desempenho e a condição estrutural da mesma. Aplica-se em redes de drenagem de águas residuais e pluviais gravíticas, do DN125 ao DN2.440, com temperaturas até 90º e pH de 1 a 10."],
     "btnLink": "",
@@ -15,14 +15,14 @@
   },
   "banner3":[
     {
-      "img": "../../images/services/drenagem/banner-03.jpg",
+      "img": "../../images/services/aducao/banner-03.jpg",
       "title": "Reabilitação estrutural mecânica",
       "text": ["Com o objectivo de reparar/reabilitar patologias pontuais a fissuras, roturas, ligações afastadas, infiltrações / exfiltrações, corrosão pontual, entre outras, aplicadas em sistemas de adução e distribuição de água sob pressão, do DN150mm ao DN5800, nas classes de pressão até 20 bar e temperaturas entre os -10ºc e os 140ºc."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
-      "img": "../../images/services/drenagem/banner-03-b.jpg",
+      "img": "../../images/services/aducao/banner-03-b.jpg",
       "title": "Reabilitação estrutural mecânica",
       "text": ["Com o objectivo de reparar/reabilitar patologias pontuais a fissuras, roturas, ligações afastadas, infiltrações / exfiltrações, corrosão pontual, entre outras, aplicadas em sistemas de adução e distribuição de água sob pressão, do DN150mm ao DN5800, nas classes de pressão até 20 bar e temperaturas entre os -10ºc e os 140ºc."],
       "btnLink": "",
@@ -31,14 +31,14 @@
   ],
   "banners45": [
     {
-      "img": "../../images/services/drenagem/banner-04.jpg",
+      "img": "../../images/services/aducao/banner-04.jpg",
       "title": "Ensaios de pressão de acordo com a norma EN805",
       "text": ["Aplicam-se em sistemas de adução e distribuição de água sob pressão e a condutas elevatórias de águas residuais, com o objetivo de verificar a resistência à pressão interior, estanquidade e a estabilidade das condutas, antes de colocadas em serviço."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
-      "img": "../../images/services/drenagem/banner-05.jpg",
+      "img": "../../images/services/aducao/banner-05.jpg",
       "title": "Desinfeção de condutas",
       "text": ["Efetua-se em todas as condutas de abastecimento e distribuição públicas de água potável, com o objetivo de se proceder à remoção de matérias inorgânicas e orgânicas das superfícies de condutas de água, e respetiva desinfeção, antes da sua entrada em serviço."],
       "btnLink": "",

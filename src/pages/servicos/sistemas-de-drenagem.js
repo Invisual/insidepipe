@@ -5,6 +5,7 @@ import Layout from "../../components/layout/layout"
 import Seo from "../../components/layout/seo"
 import IconLnk from "../../components/types/iconLnk"
 import TxtLnk from "../../components/types/txtLnk"
+import Video from "../../components/types/video"
 
 import Slider from "react-slick"
 import styled from "styled-components"
@@ -69,7 +70,7 @@ const DrenagemPage = ({data}) => {
       <StyledSlider>
         <Slider {...settings}>
           {data.drenagemJson.video.map((data, i)=>(
-            <TxtLnk data={data} dark key={"slide" + i}/>
+            <Video data={data} dark key={"slide" + i}/>
           ))}
         </Slider>
       </StyledSlider>

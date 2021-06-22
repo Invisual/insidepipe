@@ -64,12 +64,12 @@ const AducaoPage = ({data}) => {
       <Seo title="Sistemas de Adução"/>
       <IconLnk data={data.aducaoJson.intro}/>
       <div style={{height: "10px"}}/>
-      <TxtLnk data={data.aducaoJson.banner2} dark inv/>
+      <TxtLnk data={data.aducaoJson.banner2} dark/>
       <div style={{height: "10px"}}/>
       <StyledSlider>
         <Slider {...settings}>
           {data.aducaoJson.banner3.map((data, i)=>(
-            <TxtLnk data={data} dark key={"slide" + i}/>
+            <TxtLnk data={data} dark inv key={"slide" + i}/>
             ))}
         </Slider>
       </StyledSlider>
@@ -77,7 +77,7 @@ const AducaoPage = ({data}) => {
       {data.aducaoJson.banners45.map((data, i)=>(
         <div key={i}>
           {i!==0 && <div style={{height: "10px"}}/>}
-          <TxtLnk data={data} dark inv={i%2===0}/>
+          <TxtLnk data={data} dark inv={i%2!==0}/>
         </div>
       ))}
     </Layout>
