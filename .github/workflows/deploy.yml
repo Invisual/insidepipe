@@ -16,8 +16,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          ACTIONS_RUNNER_DEBUG: true
-          ACTIONS_STEP_DEBUG: true
           fetch-depth: 2
 
       - name: Install dependencies
@@ -31,9 +29,7 @@ jobs:
           config: baseUrl=http://localhost:8000
 
       - name: Build Project
-        run: |
-          npm install
-          npm run build --if-present
+        run: npm run build --if-present
 
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
