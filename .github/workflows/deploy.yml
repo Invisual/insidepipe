@@ -27,7 +27,7 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
-          start: gatsby develop
+          start: npm run develop
           wait-on: 'http://localhost:8000'
           config: baseUrl=http://localhost:8000
 
