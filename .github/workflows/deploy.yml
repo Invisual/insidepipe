@@ -1,4 +1,4 @@
-name: Publish Website to CPanel
+name: Publish Website to CPanel with Cypress
 on:
   push:
     branches:
@@ -26,9 +26,9 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v2
         with:
-          start: gatsby develop
-          wait-on: 'http://localhost:8000'
-          config: baseUrl=http://localhost:8000
+          start: npm run start
+          wait-on: "http://localhost:8000"
+          env: APP_URL=http://localhost:8000
 
       - name: Build Project
         run: |
@@ -36,7 +36,7 @@ jobs:
           npm run build --if-present
 
       - name: FTP-Deploy-Action
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
           ftp-server: ${{ secrets.FTP_SERVER }}
           ftp-username: ${{ secrets.FTP_USERNAME }}
