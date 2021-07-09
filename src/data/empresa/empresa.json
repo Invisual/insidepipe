@@ -10,7 +10,7 @@
     {
       "img": "../../images/empresa/banner-02.jpg",
       "title": "Missão",
-      "text": ["A nossa missão é desenvolver e fornecer serviços inovadores para a reabilitação de sistemas de abastecimento e, drenagem de águas residuais, a um elevado índice de competitividade. Pretendemos ser especialistas na resolução de problemas relevantes, através do uso de tecnologia revolucionária que cause o mínimo impacto no meio envolvente."],
+      "text": ["A nossa missão é desenvolver e fornecer serviços inovadores para a reabilitação de sistemas de abastecimento e, drenagem de águas residuais, com um elevado índice de competitividade. Pretendemos ser especialistas na resolução de problemas relevantes, através do uso de tecnologia revolucionária que cause o mínimo impacto no meio envolvente."],
       "btnLink": "",
       "btnTxt": ""
     },
@@ -18,8 +18,7 @@
       "img": "../../images/empresa/banner-03.jpg",
       "title": "Valores",
       "text": [
-        "Sustentamos a nossa cultura e prática na relação com clientes, fornecedores e parceiros, em sólidos valores:\n\n",
-        "Cumprimento das especificações do cliente;\nRespeito pelas normas que regulam o setor, nomeadamente ambientais."
+        "Sustentamos a nossa cultura e prática na relação com clientes, fornecedores e parceiros, em sólidos valores, no cumprimento das especificações do cliente e respeito pelas normas que regulam o setor, nomeadamente ambientais."
       ],
       "btnLink": "",
       "btnTxt": ""

@@ -56,7 +56,8 @@ const AducaoPage = ({data}) => {
     arrows: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>
+    customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>,
+    useTransform: false
   };
 
   return(
@@ -91,6 +92,7 @@ const StyledSlider = styled.div`
   width: 100%;
   background-color: #006a71;
   .slick-track{
+    position: relative;
     display: flex;
   }
   .slick-list{

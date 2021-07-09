@@ -72,7 +72,7 @@
     "school": "INSTITUIÇÃO ESCOLAR",
     "motive": "MOTIVO DE CANDIDATURA*",
     "notes": "OBSERVAÇÕES",
-    "cv": ["CURRICULUM","ADICIONAR CURRICULUM"],
+    "cv": ["CURRÍCULO","ADICIONAR CURRÍCULO"],
     "legenda": "* Campos de preenchimento obrigatório",
     "btn": "CANDIDATAR-ME"
   }

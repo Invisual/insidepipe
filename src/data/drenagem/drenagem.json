@@ -71,21 +71,21 @@
   "banners789": [
     {
       "img": "../../images/services/drenagem/banner-07.jpg",
-      "title": "Reabilitação contínua pelo método CIPP - Cured In Place Pipe",
-      "text": ["Utiliza-se em condutas que apresentam patologias que se repetem sistematicamente ao longo de toda a tubagem ou que possam colocar em causa o desempenho e a condição estrutural da mesma. Aplica-se em redes de drenagem de águas residuais e pluviais gravíticas, do DN125 ao DN2.440, com temperaturas até 90º e pH de 1 a 10."],
+      "title": ["Reabilitação contínua pelo método CIPP - ", "Cured In Place Pipe"],
+      "text": ["Utiliza-se em condutas que apresentam patologias que se repetem sistematicamente ao longo de toda a tubagem ou que possam colocar em causa o desempenho e a condição estrutural da mesma. Aplica-se em redes de drenagem de águas residuais e pluviais gravíticas, do DN125 ao DN2440, com temperaturas até 90º e pH de 1 a 10."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
       "img": "../../images/services/drenagem/banner-08.jpg",
-      "title": "Reabilitação pontual “Part Lining” com fibra e resinas",
-      "text": ["Com o objetivo de reparar/reabilitar patologias pontuais como fissuras, juntas deslocadas, roturas, ligações afastadas, intrusão de raízes, infiltrações / exfiltrações, corrosão pontual, entre outras, em redes de drenagem de águas gravíticas. Na Insidepipe possuímos equipamento do DN160 ao DN800."],
+      "title": ["Reabilitação de Ligação Ramal Coletor"],
+      "text": ["As patologias, como fissuras localizadas na ligação do ramal ao coletor, são constantes nas nossas redes de drenagem de águas residuais domésticas. A Reabilitação de Ligação Ramal Coletor é uma solução excelente que resolve este problema, sem haver necessidade de substituir o coletor e o respetivo ramal."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
       "img": "../../images/services/drenagem/banner-09.jpg",
-      "title": "Ensaios de Fumo",
+      "title": ["Ensaios de Fumo"],
       "text": ["Efetuam-se em redes de drenagem de água residuais gravíticas, com o objetivo de detetar e localizar pontos de entrada de águas pluviais na rede."],
       "btnLink": "",
       "btnTxt": ""

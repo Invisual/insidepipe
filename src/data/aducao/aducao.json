@@ -8,7 +8,7 @@
   },
   "banner2": {
     "img": "../../images/services/aducao/banner-02.jpg",
-    "title": "Reabilitação contínua pelo método CIPP - Cured In Place Pipe",
+    "title": ["Reabilitação contínua pelo método CIPP - ", "Cured In Place Pipe"],
     "text": ["Utiliza-se em condutas que apresentam patologias que se repetem sistematicamente ao longo de toda a tubagem ou que possam colocar em causa o desempenho e a condição estrutural da mesma. Aplica-se em redes de drenagem de águas residuais e pluviais gravíticas, do DN125 ao DN2.440, com temperaturas até 90º e pH de 1 a 10."],
     "btnLink": "",
     "btnTxt": ""

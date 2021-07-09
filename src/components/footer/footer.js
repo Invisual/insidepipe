@@ -34,9 +34,16 @@ const Footer = ({ data, recrutData }) => {
       </div>
 
       <div className="footer-col">
-        {data.privacy.map((data, i)=>(
-          <p className={font.aB + " small"} key={"privacy" + i}>{data}</p>
-        ))}
+          {data.privacy.map((data, i)=>(
+            i!==2 ?
+            <a href="/assets/PoliticaDeProtecaoDadosInsidepipe.pdf" noreferrer noopener target="_blank" key={"privacy" + i}>
+              <p className={font.aB + " small"}>{data}</p>
+            </a>
+            : 
+            <a href="https://livroreclamacoes.pt/inicio" noreferrer noopener target="_blank" key={"privacy" + i}>
+              <p className={font.aB + " small"}>{data}</p>
+            </a>
+          ))}
       </div>
 
       <div className="footer-col cofinan">

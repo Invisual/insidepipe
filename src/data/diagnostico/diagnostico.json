@@ -9,14 +9,14 @@
   "banner2": {
     "img": "../../images/services/diagnostico/banner-02.jpg",
     "title": "Consultoria",
-    "text": ["Apresentamos soluções chave no setor de reabilitação sem abertura de vala. Com base na informação recolhida pela Inspeção Vídeo CCTV e pelos Ensaios de Estanquidade, apresentamos propostas de reabilitação."],
+    "text": ["Apresentamos soluções chave-na-mão de reabilitação sem abertura de vala. Com base na informação recolhida pela Inspeção Vídeo CCTV e pelos Ensaios de Estanquidade, apresentamos propostas de reabilitação."],
     "btnLink": "",
     "btnTxt": ""
   },
   "video": {
     "img": "../../images/services/diagnostico/banner-03.jpg",
     "title": "Inspeção vídeo CCTV (de acordo com a EN13508-1 e EN 13508-2)",
-    "text": ["Efetuam-se em tubagens de drenagem de águas residuais e pluviais, a todo o tipo de obstáculos, como raízes, juntas deslocadas, pedras e outras, que possam impedir o bom funcionamento do sistema."],
+    "text": ["Efectua-se a redes de drenagem de águas residuais e pluviais do DN63 ao DN1200, com o objectivo de verificar o estado de conservação estrutural e de funcionamento das condutas, identificando patologias de forma a prevenir problemas nas redes."],
     "btnLink": "https://www.youtube.com/embed/kcsZ21bu0L4",
     "btnTxt": "VER VÍDEO"
   }
