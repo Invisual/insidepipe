@@ -35,7 +35,7 @@ const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
             <Link to={data.link} className={font.aH + " menu-links"} activeClassName={font.aH + " menu-links-active"} key={"sidemenu-link-" + i}>
               {data.linkTxt}
             </Link>
-           : 
+          :
             <div key={"sidemenu-link-" + i}>
               <button className={!services ? (font.aH + " menu-links services-btn") : (font.aH + " menu-links services-btn menu-links-active")} onClick={()=>{setServices(!services)}}>
                 <img src={openServices} className={!services ? "servBtn" : "servBtn servBtn-turn"} alt="Botão de Abrir Serviços"/>

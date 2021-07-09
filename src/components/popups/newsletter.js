@@ -4,7 +4,7 @@ import { CSSTransition } from "react-transition-group"
 import { Button } from "../layout/linkBtns"
 import styled from "styled-components"
 import * as font from "../../fonts/fonts.module.scss"
-import CustomAxios from "../../custom/axios"
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 const Popup = ({ data, setPopup }) => {
 
@@ -36,21 +36,25 @@ const Popup = ({ data, setPopup }) => {
   const handleSubmit = () => {
     checkValues();
     if(checker.length<1){
-      var formData = new FormData()
-      formData.append("name", name.current.value)
-      formData.append("email", email.current.value)
-
-      CustomAxios("https://invisual.pt/teste-form/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
-      // CustomAxios("/assets/form-contact.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      var listFields = {FNAME: name.current.value}
+      addToMailchimp(email.current.value, listFields) // listFields are optional if you are only capturing the email address.
+        .then(data => {
+          // I recommend setting data to React state
+          // but you can do whatever you want (including ignoring this `then()` altogether)
+          console.log(data)
+          setSuccess(true);
+        })
+        .catch(() => {
+          // unnecessary because Mailchimp only ever
+          // returns a 200 status code
+          // see below for how to handle errors
+        })
     }
     else{
       checker.forEach(element => {
         element.current.style.border = "solid 2px red";
       });
     }
-  }
-  const successRes = (res) => {
-    setSuccess(true);
   }
 
   useEventListener("mousedown", (e) => sair(e));
