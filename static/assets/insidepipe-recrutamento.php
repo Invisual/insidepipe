@@ -35,7 +35,7 @@ if (isset($_POST)) {
       
     // Recipients
     $mail->setFrom('noreply@ipmd.pt', 'noreply');
-    $mail->addAddress('suporte@invisual.pt', 'IPMD');
+    $mail->addAddress('suporte@invisual.pt', 'Insidepipe');
     $mail->addReplyTo($useremail, $username);
     
     // Content

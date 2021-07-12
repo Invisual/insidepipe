@@ -69,8 +69,8 @@ const Popup = ({ data, setPopup }) => {
       formData.append("notes", notes.current.value)
       formData.append("cv", files)
 
-      CustomAxios("https://invisual.pt/teste-form/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
-      // CustomAxios("/assets/form-contact.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      // CustomAxios("https://invisual.pt/teste-form/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      CustomAxios("/assets/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
     }
     else{
       checker.forEach(element => {
@@ -90,35 +90,40 @@ const Popup = ({ data, setPopup }) => {
   return (
     <StyledPopup>
       <div className="clickbox">
-        <DragDrop fileDrop={setFiles} fileRef={fileRef}>
-          <div className="clickbox-form">
-            <h3 className={font.aH + " title"}>{data.title}</h3>
+        <CSSTransition in={success===false} timeout={0} classNames={"switchModal"} unmountOnExit>
+          <DragDrop fileDrop={setFiles} fileRef={fileRef}>
+            <div className="clickbox-form">
+              <h3 className={font.aH + " title"}>{data.title}</h3>
 
-            <input type="text" ref={name} className={font.aH + " small"} placeholder={data.name}/>
-            <div className="flex-input">
-              <input type="text" ref={dob} className={font.aH + " small"} placeholder={data.dob}/>
-              <input type="text" ref={phone} className={font.aH + " small"} placeholder={data.phone}/>
-            </div>
-            <input type="text" ref={email} className={font.aH + " small"} placeholder={data.email}/>
-            <div className="flex-input">
-              <input type="text" ref={degree} className={font.aH + " small"} placeholder={data.degree}/>
-              <input type="text" ref={school} className={font.aH + " small"} placeholder={data.school}/>
-            </div>
-            <textarea type="text" ref={motive} className={font.aH + " small"} placeholder={data.motive}/>
-            <input type="text" ref={notes} className={font.aH + " small"} placeholder={data.notes}/>
-
-            <div className="file-flex">
-              <div className="file">
-                <input type="file" ref={fileRef} onChange={(e)=>setFiles(e.target.files[0])}/>
-                <Button className={font.aH + " small input"} dark onClick={()=>{fileRef.current.click()}}>{data.cv[0]}</Button>
-                <p className={font.aH + " green small"}>{fileRef.current && fileRef.current.files.length>0 ? fileRef.current.files[0].name : data.cv[1]}</p>
+              <input type="text" ref={name} className={font.aH + " small"} placeholder={data.name}/>
+              <div className="flex-input">
+                <input type="text" ref={dob} className={font.aH + " small"} placeholder={data.dob}/>
+                <input type="text" ref={phone} className={font.aH + " small"} placeholder={data.phone}/>
               </div>
-              <p className={font.aH + " small"}>{data.legenda}</p>
-            </div>
+              <input type="text" ref={email} className={font.aH + " small"} placeholder={data.email}/>
+              <div className="flex-input">
+                <input type="text" ref={degree} className={font.aH + " small"} placeholder={data.degree}/>
+                <input type="text" ref={school} className={font.aH + " small"} placeholder={data.school}/>
+              </div>
+              <textarea type="text" ref={motive} className={font.aH + " small"} placeholder={data.motive}/>
+              <input type="text" ref={notes} className={font.aH + " small"} placeholder={data.notes}/>
 
-            <Button className={font.aH + " btn"} dark onClick={handleSubmit}>{data.btn}</Button>
-          </div>
-        </DragDrop>
+              <div className="file-flex">
+                <div className="file">
+                  <input type="file" ref={fileRef} onChange={(e)=>setFiles(e.target.files[0])}/>
+                  <Button className={font.aH + " small input"} dark onClick={()=>{fileRef.current.click()}}>{data.cv[0]}</Button>
+                  <p className={font.aH + " green small"}>{fileRef.current && fileRef.current.files.length>0 ? fileRef.current.files[0].name : data.cv[1]}</p>
+                </div>
+                <p className={font.aH + " small"}>{data.legenda}</p>
+              </div>
+
+              <Button className={font.aH + " btn"} dark onClick={handleSubmit}>{data.btn}</Button>
+            </div>
+          </DragDrop>
+        </CSSTransition>
+        <CSSTransition in={success===true} timeout={0} classNames={"switchModal"} unmountOnExit>
+          <h3 className={font.aH + " title"}>{data.success}</h3>
+        </CSSTransition>
       </div>
     </StyledPopup>
   )

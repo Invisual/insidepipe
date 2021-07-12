@@ -1,6 +1,7 @@
 {
   "intro": {
     "img": "../../images/services/drenagem/banner-01.jpg",
+    "imgM": "../../images/services/drenagem/banner-01.jpg",
     "title": "SISTEMAS DE DRENAGEM DE ÁGUAS RESIDUAIS, DOMÉSTICAS E PLUVIAIS",
     "icon": "../../images/services/drenagem/icon.svg",
     "btnLink": "",
@@ -8,6 +9,7 @@
   },
   "banner2": {
     "img": "../../images/services/drenagem/banner-02.jpg",
+    "imgM": "../../images/services/drenagem/banner-02.jpg",
     "title": "Ensaios de Estanquidade (de acordo com a EN1610)",
     "text": ["Aplicam-se a redes gravíticas de saneamento de águas residuais e pluviais, com o objetivo de verificar a estanquidade e a estabilidade das tubagens antes da sua entrada em serviço, de forma a assegurar a inexistência de fugas e infiltrações. Na Insidepipe possuímos equipamento do DN75 ao DN1000."],
     "btnLink": "",
@@ -16,6 +18,7 @@
   "video": [
     {
       "img": "../../images/services/drenagem/banner-03.jpg",
+      "imgM": "../../images/services/drenagem/banner-03.jpg",
       "title": "Operações de fresagem",
       "text": ["Efetuam-se em tubagens de drenagem de águas residuais e pluviais, a todo o tipo de obstáculo que impeça o bom funcionamento do sistema, como raízes, juntas deslocadas, pedras, etc."],
       "btnLink": "https://www.youtube.com/embed/WANE1JnkjI8",
@@ -23,6 +26,7 @@
     },
     {
       "img": "../../images/services/drenagem/banner-03-b.jpg",
+      "imgM": "../../images/services/drenagem/banner-03-b.jpg",
       "title": "Operações de fresagem",
       "text": ["Efetuam-se em tubagens de drenagem de águas residuais e pluviais, a todo o tipo de obstáculo que impeça o bom funcionamento do sistema, como raízes, juntas deslocadas, pedras, etc."],
       "btnLink": "https://www.youtube.com/embed/WANE1JnkjI8",
@@ -31,6 +35,7 @@
   ],
   "banner4": {
     "img": "../../images/services/drenagem/banner-04.jpg",
+    "imgM": "../../images/services/drenagem/banner-04.jpg",
     "title": "Reabilitação Pontual “Part Lining”",
     "text": ["Com o objectivo de reparar/reabilitar patologias pontuais como, fissuras, juntas deslocadas, roturas, ligações afastadas, intrusão de raízes, infiltrações/exfiltrações, corrosão pontual, entre outras, em redes de drenagem de águas gravíticas. A Insidepipe, possui equipamento do DN160 ao DN800."],
     "btnLink": "",
@@ -39,6 +44,7 @@
   "banner5":[
     {
       "img": "../../images/services/drenagem/banner-05.jpg",
+      "imgM": "../../images/services/drenagem/banner-05.jpg",
       "title": "Limpeza e Desobstrução com Camião de Hidroaspiração com Sistema de Reciclagem",
       "text": ["A limpeza com camião de hidroaspiração aplica-se em redes de saneamento, águas pluviais e redes industriais com o objetivo de libertar as redes de condutas de materiais sólidos depositados, introduzidos, aderidos ou incrustados, de forma a garantir as condições corretas de escoamento. No caso de outros elementos da rede, como por exemplo depósitos ou reservatórios, o objetivo principal é de vazar e limpar o elemento, devolvendo-lhe assim a sua capacidade de armazenamento."],
       "btnLink": "",
@@ -46,6 +52,7 @@
     },
     {
       "img": "../../images/services/drenagem/banner-05-b.jpg",
+      "imgM": "../../images/services/drenagem/banner-05-b.jpg",
       "title": "Limpeza e Desobstrução com Camião de Hidroaspiração com Sistema de Reciclagem",
       "text": ["A limpeza com camião de hidroaspiração aplica-se em redes de saneamento, águas pluviais e redes industriais com o objetivo de libertar as redes de condutas de materiais sólidos depositados, introduzidos, aderidos ou incrustados, de forma a garantir as condições corretas de escoamento. No caso de outros elementos da rede, como por exemplo depósitos ou reservatórios, o objetivo principal é de vazar e limpar o elemento, devolvendo-lhe assim a sua capacidade de armazenamento."],
       "btnLink": "",
@@ -55,6 +62,7 @@
   "banner6":[
     {
       "img": "../../images/services/drenagem/banner-06.jpg",
+      "imgM": "../../images/services/drenagem/banner-06.jpg",
       "title": "Reabilitação estrutural mecânica",
       "text": ["Tem como objetivo reparar e reabilitar patologias pontuais a fissuras, roturas, ligações afastadas, infiltrações/exfiltrações, corrosão pontual e outras. Aplicadas em sistemas de adução e distribuição de água sob pressão, do DN150mm ao DN5800, nas classes de pressão até 20 bar e temperaturas entre os -10ºc e os 140ºc."],
       "btnLink": "",
@@ -62,6 +70,7 @@
     },
     {
       "img": "../../images/services/drenagem/banner-06-b.jpg",
+      "imgM": "../../images/services/drenagem/banner-06-b.jpg",
       "title": "Reabilitação estrutural mecânica",
       "text": ["Com o objectivo de reparar/reabilitar patologias pontuais a fissuras, roturas, ligações afastadas, infiltrações / exfiltrações, corrosão pontual, entre outras, aplicadas em sistemas de adução e distribuição de água sob pressão, do DN150mm ao DN5800, nas classes de pressão até 20 bar e temperaturas entre os -10ºc e os 140ºc."],
       "btnLink": "",
@@ -71,6 +80,7 @@
   "banners789": [
     {
       "img": "../../images/services/drenagem/banner-07.jpg",
+      "imgM": "../../images/services/drenagem/banner-07.jpg",
       "title": ["Reabilitação contínua pelo método CIPP - ", "Cured In Place Pipe"],
       "text": ["Utiliza-se em condutas que apresentam patologias que se repetem sistematicamente ao longo de toda a tubagem ou que possam colocar em causa o desempenho e a condição estrutural da mesma. Aplica-se em redes de drenagem de águas residuais e pluviais gravíticas, do DN125 ao DN2440, com temperaturas até 90º e pH de 1 a 10."],
       "btnLink": "",
@@ -78,6 +88,7 @@
     },
     {
       "img": "../../images/services/drenagem/banner-08.jpg",
+      "imgM": "../../images/services/drenagem/banner-08.jpg",
       "title": ["Reabilitação de Ligação Ramal Coletor"],
       "text": ["As patologias, como fissuras localizadas na ligação do ramal ao coletor, são constantes nas nossas redes de drenagem de águas residuais domésticas. A Reabilitação de Ligação Ramal Coletor é uma solução excelente que resolve este problema, sem haver necessidade de substituir o coletor e o respetivo ramal."],
       "btnLink": "",
@@ -85,6 +96,7 @@
     },
     {
       "img": "../../images/services/drenagem/banner-09.jpg",
+      "imgM": "../../images/services/drenagem/banner-09.jpg",
       "title": ["Ensaios de Fumo"],
       "text": ["Efetuam-se em redes de drenagem de água residuais gravíticas, com o objetivo de detetar e localizar pontos de entrada de águas pluviais na rede."],
       "btnLink": "",

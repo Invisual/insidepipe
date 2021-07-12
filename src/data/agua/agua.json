@@ -2,6 +2,7 @@
   "homelinks": [
     {
       "img": "../../images/water/banner-01.jpg",
+      "imgM": "../../images/water/banner-01.jpg",
       "title": "Um bem Essencial",
       "text": ["A água é um composto químico formado por dois átomos de hidrogénio e um de oxigénio, sendo a sua fórmula química H2O. Foi na água há cerca de 3800 milhões de anos que surgiu a vida na Terra. 71% da superfície do planeta Terra é coberta pela mesma, razão pela qual o nosso planeta visto do espaço assume uma cor azulada, sendo também a mesma um elemento base essencial do corpo humano. "],
       "btnLink": "",
@@ -9,6 +10,7 @@
     },
     {
       "img": "../../images/water/banner-02.jpg",
+      "imgM": "../../images/water/banner-02.jpg",
       "title": "A importância da água",
       "text": ["A água é um bem precioso, um património de todos, que deve ser preservado e consumido de forma racional. Estudos apontam que futuramente a água potável será rara, caso a continuemos a tratar de forma displicente. Existem regiões no mundo, principalmente as mais pobres, onde a água é já um recurso escasso."],
       "btnLink": "",
@@ -16,6 +18,7 @@
     },
     {
       "img": "../../images/water/banner-03.jpg",
+      "imgM": "../../images/water/banner-03.jpg",
       "title": "Cultura da água",
       "text": ["Uma nova “cultura da água”, protegendo-a e alterando a forma com a usamos, torna-se um assunto imperativo deste novo século. Tendo consciência do risco a que está sujeito este bem essencial à manutenção do planeta Terra e de toda a sua biodiversidade, a 22 de março de 1992 a ONU redigiu um documento intitulado de “Declaração Universal dos Direitos da Água."],
       "btnLink": "",
@@ -25,6 +28,7 @@
   "slider":[
     {
       "img": "../../images/water/banner-04.jpg",
+      "imgM": "../../images/water/banner-04.jpg",
       "title": "Declaração Universal dos Direitos da Água",
       "text": ["1 - A água faz parte do património do planeta. Cada continente, cada povo, cada nação, cada região, cada cidade, cada cidadão, é plenamente responsável aos olhos de todos.\n\n2 - A água é a seiva de nosso planeta. Ela é condição essencial de vida de todo vegetal, animal ou ser humano. Sem ela não poderíamos conceber como são a atmosfera, o clima, a vegetação, a cultura ou a agricultura."],
       "btnLink": "",
@@ -32,6 +36,7 @@
     },
     {
       "img": "../../images/water/banner-05.jpg",
+      "imgM": "../../images/water/banner-05.jpg",
       "title": "Declaração Universal dos Direitos da Água",
       "text": ["3 - Os recursos naturais de transformação da água em água potável são lentos, frágeis e muito limitados. Assim sendo, a água deve ser manipulada com racionalidade, precaução e parcimónia.\n\n4 - O equilíbrio e o futuro do nosso planeta dependem da preservação da água e dos seus ciclos. Estes devem permanecer intactos e a funcionar normalmente para garantir a continuidade da vida sobre a Terra. Este equilíbrio depende em particular, da preservação dos mares e oceanos por onde os ciclos começam."],
       "btnLink": "",
@@ -39,6 +44,7 @@
     },
     {
       "img": "../../images/water/banner-06.jpg",
+      "imgM": "../../images/water/banner-06.jpg",
       "title": "Declaração Universal dos Direitos da Água",
       "text": ["5 - A água não é somente herança dos nossos predecessores; ela é, sobretudo, um empréstimo aos nossos sucessores. A sua proteção constitui uma necessidade vital, assim como a obrigação moral do homem para com as gerações presentes e futuras.\n\n6 - A água não é uma doação gratuita da natureza; ela tem um valor económico: precisa-se saber que ela é, algumas vezes, rara e dispendiosa e que pode muito bem escassear em qualquer região do mundo."],
       "btnLink": "",
@@ -46,6 +52,7 @@
     },
     {
       "img": "../../images/water/banner-07.jpg",
+      "imgM": "../../images/water/banner-07.jpg",
       "title": "Declaração Universal dos Direitos da Água",
       "text": ["7 - A água não deve ser desperdiçada, nem poluída, nem envenenada. De maneira geral, a sua utilização deve ser feita com consciência e discernimento para que não se chegue a uma situação de esgotamento ou de deterioração da qualidade das reservas atualmente disponíveis.\n\n8 - A utilização da água implica respeito à lei. A sua protecção constitui uma obrigação jurídica para todo o homem ou grupo social que a utiliza. Esta questão não deve ser ignorada nem pelo homem nem pelo Estado."],
       "btnLink": "",
@@ -53,6 +60,7 @@
     },
     {
       "img": "../../images/water/banner-08.jpg",
+      "imgM": "../../images/water/banner-08.jpg",
       "title": "Declaração Universal dos Direitos da Água",
       "text": ["9-  A gestão da água impõe um equilíbrio entre os imperativos de sua proteção e as necessidades de ordem económica, sanitária e social.\n\n10 -  O planeamento da gestão da água deve levar em conta a solidariedade e o consenso em razão da sua distribuição desigual sobre a Terra."],
       "btnLink": "",

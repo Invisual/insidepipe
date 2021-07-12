@@ -1,6 +1,7 @@
 {
   "banner1": {
     "img": "../../images/contactos/banner-01.jpg",
+    "imgM": "../../images/contactos/banner-01.jpg",
     "title": "Fale connosco!",
     "text": ["Parque Empresarial Quimiparque Estarreja\n3860-680 Estarreja\nPortugal"],
     "btnLink": "",

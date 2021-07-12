@@ -33,6 +33,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         icon{
           publicURL

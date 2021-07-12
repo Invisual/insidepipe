@@ -52,9 +52,7 @@ const AguaPage = ({data}) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    arrows: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    arrows: false,
     customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>,
     useTransform: false
   };
@@ -130,6 +128,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         text
         btnLink
@@ -137,6 +144,15 @@ export const Json = graphql`
       }
       slider{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED

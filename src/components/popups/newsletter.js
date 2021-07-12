@@ -41,7 +41,6 @@ const Popup = ({ data, setPopup }) => {
         .then(data => {
           // I recommend setting data to React state
           // but you can do whatever you want (including ignoring this `then()` altogether)
-          console.log(data)
           setSuccess(true);
         })
         .catch(() => {
@@ -65,12 +64,21 @@ const Popup = ({ data, setPopup }) => {
   return (
     <StyledPopup>
       <div className="clickbox">
-        <h3 className={font.aH + " title"}>{data.title}</h3>
 
-        <input type="text" ref={name} className={font.aH + " small"} placeholder={data.name}/>
-        <input type="text" ref={email} className={font.aH + " small"} placeholder={data.email}/>
+        <CSSTransition in={success===false} timeout={0} classNames={"switchModal"} unmountOnExit>
+          <>
+          <h3 className={font.aH + " title"}>{data.title}</h3>
+          <input type="text" ref={name} className={font.aH + " small"} placeholder={data.name}/>
+          <input type="text" ref={email} className={font.aH + " small"} placeholder={data.email}/>
 
-        <Button className={font.aH + " btn"} dark onClick={handleSubmit}>{data.btn}</Button>
+          <Button className={font.aH + " btn"} dark onClick={handleSubmit}>{data.btn}</Button>
+          </>
+        </CSSTransition>
+
+        <CSSTransition in={success===true} timeout={0} classNames={"switchModal"} unmountOnExit>
+          <h3 className={font.aH + " title"}>{data.success}</h3>
+        </CSSTransition>
+
       </div>
     </StyledPopup>
   )

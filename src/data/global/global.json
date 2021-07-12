@@ -43,10 +43,11 @@
     "created": ["https://invisual.pt", "CREATED: INVISUAL.PT"],
     "newsletter": {
       "call": "Newsletter",
-      "title": "Subscreve a nossa newsletter!",
+      "title": "Subscreva a nossa newsletter!",
       "name": "NOME*",
       "email": "EMAIL*",
-      "btn": "Subscrever"
+      "btn": "Subscrever",
+      "success": "OBRIGADO PELA SUA SUBSCRIÇÃO!"
     }
   },
   "footer":{
@@ -74,6 +75,7 @@
     "notes": "OBSERVAÇÕES",
     "cv": ["CURRÍCULO","ADICIONAR CURRÍCULO"],
     "legenda": "* Campos de preenchimento obrigatório",
-    "btn": "CANDIDATAR-ME"
+    "btn": "CANDIDATAR-ME",
+    "success": "OBRIGADO PELA SUA CANDIDATURA!"
   }
 }
