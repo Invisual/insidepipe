@@ -56,7 +56,7 @@ const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
         <Button dark className={font.aH + " menu-newsletter"} onClick={()=>{newsletter[1](!newsletter[0])}}>{data.newsletter.call}</Button>
         <div className="icons">
           <a href="https://pt.linkedin.com/company/insidepipe" className="iconLink"><img src={linked} alt="LinkedIn"/></a>
-          <a href="https://www.instagram.com/insidepipe_/" className="iconLink"><img src={insta} alt="Instagram"/></a>
+          <a href="https://www.instagram.com/insidepipe.pt/" className="iconLink"><img src={insta} alt="Instagram"/></a>
           <a href="https://www.facebook.com/insidepipe/" className="iconLink"><img src={face} alt="Facebook"/></a>
           <a href="https://www.youtube.com/channel/UCMea6c1cWEV7bnTfuU0xVUQ" className="iconLink"><img src={tube} alt="Youtube"/></a>
         </div>

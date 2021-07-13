@@ -39,8 +39,8 @@ const Form = ({data}) => {
       formData.append("subject", subject.current.value)
       formData.append("message", message.current.value)
 
-      // CustomAxios("https://invisual.pt/teste-form/insidepipe.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
-      CustomAxios("/assets/form-contact.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      CustomAxios("https://invisual.pt/insidepipe-forms/form-contact.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      // CustomAxios("/assets/form-contact.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
     }
     else{
       checker.forEach(element => {

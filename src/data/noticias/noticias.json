@@ -2,7 +2,7 @@
   "homelinks": [
     {
       "img": "../../images/empresa/banner-01.jpg",
-      "imgM": "../../images/empresa/banner-01.jpg",
+      "imgM": "../../images/empresa/banner-01M.jpg",
       "title": "Empresa de Referência",
       "text": ["Somos uma empresa de reabilitação de condutas sem abertura de vala."],
       "btnLink": "/",

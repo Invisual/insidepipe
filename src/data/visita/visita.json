@@ -1,8 +1,8 @@
 {
   "intro": {
     "img": "../../images/services/visita/banner-01.jpg",
-    "imgM": "../../images/services/visita/banner-01.jpg",
-    "title": "SISTEMAS DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA",
+    "imgM": "../../images/services/visita/banner-01M.jpg",
+    "title": "CAIXAS DE VISITA",
     "icon": "../../images/services/aducao/icon.svg",
     "btnLink": "",
     "btnTxt": ""
@@ -10,7 +10,7 @@
   "banner2":[
     {
       "img": "../../images/services/visita/banner-02.jpg",
-      "imgM": "../../images/services/visita/banner-02.jpg",
+      "imgM": "../../images/services/visita/banner-02M.jpg",
       "title": "Ensaios de Estanquidade (de acordo com a EN1610)",
       "text": ["Aplicam-se a redes gravíticas de saneamento de águas residuais e pluviais, com o objetivo de verificar a estanquidade e a estabilidade das tubagens antes da sua entrada em serviço, de forma a assegurar a inexistência de fugas e infiltrações. Na Insidepipe possuímos equipamento do DN75 ao DN1000."],
       "btnLink": "",
@@ -18,7 +18,7 @@
     },
     {
       "img": "../../images/services/visita/banner-02-b.jpg",
-      "imgM": "../../images/services/visita/banner-02-b.jpg",
+      "imgM": "../../images/services/visita/banner-02-bM.jpg",
       "title": "Regularização e Insonorização de Tampas",
       "text": ["Aplica-se em qualquer tipo de tampa ou sistema de fecho – como tampas de caixas de visita, caixas de ramal, contador de gás, entre outras – de qualquer dimensão e forma localizadas em todas as áreas de circulação. O objetivo é eliminar de uma forma rápida e eficaz o ruído provocado pela passagem de veículos sobre as tampas, sem necessidade de recorrer à substituição da tampa ou à substituição do anel de vedação."],
       "btnLink": "",
@@ -28,15 +28,15 @@
   "banner34": [
     {
       "img": "../../images/services/visita/banner-03.jpg",
-      "imgM": "../../images/services/visita/banner-03.jpg",
-      "title": "Reabilitação de Caixas de Visita",
+      "imgM": "../../images/services/visita/banner-03M.jpg",
+      "title": "Reabilitação de Caixas de Visita com Projeção de Argamassas",
       "text": ["A Insidepipe realiza serviços de reparação, reabilitação e impermeabilização de caixas de visita e elementos em betão ou alvenaria, de redes de condutas gravíticas de saneamento e águas pluviais, com sistema de projeção rotativa de argamassas. É ainda aplicável a caixas visita novas, antes da sua colocação em serviço, em que se pretenda realizar trabalhos de impermeabilização como solução preventiva."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
       "img": "../../images/services/visita/banner-04.jpg",
-      "imgM": "../../images/services/visita/banner-02.jpg",
+      "imgM": "../../images/services/visita/banner-04M.jpg",
       "title": "Insonorização de Tampas",
       "text": ["Insonorização de todo o tipo de tampa com aplicação de borracha líquida."],
       "btnLink": "",

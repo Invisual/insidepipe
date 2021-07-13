@@ -1,7 +1,7 @@
 {
   "intro": {
     "img": "../../images/services/diagnostico/banner-01.jpg",
-    "imgM": "../../images/services/diagnostico/banner-01.jpg",
+    "imgM": "../../images/services/diagnostico/banner-01M.jpg",
     "title": "DIAGNÓSTICO E CONSULTORIA",
     "icon": "../../images/services/diagnostico/icon.svg",
     "btnLink": "",
@@ -9,7 +9,7 @@
   },
   "banner2": {
     "img": "../../images/services/diagnostico/banner-02.jpg",
-    "imgM": "../../images/services/diagnostico/banner-02.jpg",
+    "imgM": "../../images/services/diagnostico/banner-02M.jpg",
     "title": "Consultoria",
     "text": ["Apresentamos soluções chave-na-mão de reabilitação sem abertura de vala. Com base na informação recolhida pela Inspeção Vídeo CCTV e pelos Ensaios de Estanquidade, apresentamos propostas de reabilitação."],
     "btnLink": "",
@@ -17,7 +17,7 @@
   },
   "video": {
     "img": "../../images/services/diagnostico/banner-03.jpg",
-    "imgM": "../../images/services/diagnostico/banner-03.jpg",
+    "imgM": "../../images/services/diagnostico/banner-03M.jpg",
     "title": "Inspeção vídeo CCTV (de acordo com a EN13508-1 e EN 13508-2)",
     "text": ["Efectua-se a redes de drenagem de águas residuais e pluviais do DN63 ao DN1200, com o objectivo de verificar o estado de conservação estrutural e de funcionamento das condutas, identificando patologias de forma a prevenir problemas nas redes."],
     "btnLink": "https://www.youtube.com/embed/kcsZ21bu0L4",

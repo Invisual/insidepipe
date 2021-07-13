@@ -98,6 +98,23 @@ const DrenagemPage = ({data}) => {
           <TxtLnk data={data} dark inv={i%2!==0}/>
         </div>
       ))}
+      {/* <div style={{height: "10px"}}/>
+      <IconLnk data={data.visitaJson.intro}/> */}
+      <div style={{height: "10px"}}/>
+      <StyledSlider>
+        <Slider {...settings}>
+          {data.visitaJson.banner2.map((data, i)=>(
+            <TxtLnk data={data} dark key={"slide" + i}/>
+            ))}
+        </Slider>
+      </StyledSlider>
+      <div style={{height: "10px"}}/>
+      {data.visitaJson.banner34.map((data, i)=>(
+        <div key={i}>
+          {i!==0 && <div style={{height: "10px"}}/>}
+          <TxtLnk data={data} dark inv={i%2===0}/>
+        </div>
+      ))}
     </Layout>
   )
 }
@@ -290,6 +307,83 @@ export const Json = graphql`
         btnTxt
       }
       banners789{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+    }
+    visitaJson{
+      intro{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+              quality: 100
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        icon{
+          publicURL
+        }
+        btnLink
+        btnTxt
+      }
+      banner2{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+      banner34{
         img{
           childImageSharp{
             gatsbyImageData(

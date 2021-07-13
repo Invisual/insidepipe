@@ -10,9 +10,9 @@ import Map from "../components/contactos/map"
 const ContactosPage = ({data}) => (
   <Layout>
     <Seo title="Contactos"/>
-    <TxtLnk data={data.contactosJson.banner1}/>
-    <Form data={data.contactosJson.form}/>
     <Map/>
+    <Form data={data.contactosJson.form}/>
+    {/* <TxtLnk data={data.contactosJson.banner1}/> */}
   </Layout>
 )
 

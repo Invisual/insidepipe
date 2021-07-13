@@ -20,20 +20,12 @@
           {
             "link": "/servicos/sistemas-de-aducao",
             "linkTxt": "SISTEMA DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA"
-          },
-          {
-            "link": "/servicos/caixas-de-visita",
-            "linkTxt": "CAIXAS DE VISITA"
           }
         ]
       },
       {
         "link": "/agua",
         "linkTxt": "ÁGUA"
-      },
-      {
-        "link": "/noticias",
-        "linkTxt": "NOTÍCIAS"
       },
       {
         "link": "/contactos",
@@ -53,7 +45,8 @@
   "footer":{
     "address": [
       "Parque Empresarial Quimiparque Estarreja",
-      "3860-680 Estarreja - Portugal"
+      "3860-680 Estarreja",
+      "Portugal"
     ],
     "recrut": "Recrutamento",
     "privacy": [

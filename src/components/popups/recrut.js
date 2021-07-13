@@ -69,8 +69,8 @@ const Popup = ({ data, setPopup }) => {
       formData.append("notes", notes.current.value)
       formData.append("cv", files)
 
-      // CustomAxios("https://invisual.pt/teste-form/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
-      CustomAxios("/assets/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      CustomAxios("https://invisual.pt/insidepipe-forms/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
+      // CustomAxios("/assets/insidepipe-recrutamento.php", formData, "OBRIGADO PELA SUA MENSAGEM").then((res) => successRes(res));
     }
     else{
       checker.forEach(element => {

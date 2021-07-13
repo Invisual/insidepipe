@@ -27,7 +27,7 @@ const Footer = ({ data, recrutData }) => {
         {data.address.map((data, i)=>(
           <p className={font.aB + " small"} key={"address" + i}>{data}</p>
         ))}
-        <button onClick={()=>{setRecrut(!recrut)}} className={font.aB + " small"}>{data.recrut}</button>
+        {/* <button onClick={()=>{setRecrut(!recrut)}} className={font.aB + " small"}>{data.recrut}</button> */}
         <CSSTransition in={recrut===true} timeout={350} classNames={"switch"} unmountOnExit>
           <Popup data={recrutData} setPopup={setRecrut}/>
         </CSSTransition>
