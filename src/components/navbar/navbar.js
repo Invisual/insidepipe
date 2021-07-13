@@ -10,6 +10,9 @@ import menu from "../../images/global/menu_hamb.svg"
 
 import Sidemenu from "./sidemenu"
 
+import useLockBodyScroll from "../../custom/use-lock-body-scroll"
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+
 const Navbar = ({ ...props }) => {
   const navbar = useRef(null);
   const [prevScrollPos, setPrevScrollPos] = useState("");
@@ -17,6 +20,8 @@ const Navbar = ({ ...props }) => {
 
   const [newsletter, setNewsletter] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useLockBodyScroll(useBreakpoint().mobile && menuOpen);
 
   useEffect(() => {
     setPrevScrollPos(window.pageYOffset)

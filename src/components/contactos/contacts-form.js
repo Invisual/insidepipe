@@ -8,8 +8,8 @@ const ContactsForm = ({data}) => {
 
   return(
     <StyledContainer>
+      <h3 className={font.aH + " title"}>{data.contacts.title}</h3>
       <div className="contacts">
-        <h3 className={font.aH + " title"}>{data.contacts.title}</h3>
         <div className="block">
           <p className={font.aB}>{data.contacts.geral.title}</p>
           <a href={data.contacts.geral.email[0]} className={font.aB}>{data.contacts.geral.email[1]}</a>
@@ -30,7 +30,7 @@ const ContactsForm = ({data}) => {
         </div>
       </div>
 
-      <Form data={data.form}/>
+      {/* <Form data={data.form}/> */}
     </StyledContainer>
   )
 }
@@ -40,17 +40,19 @@ export default ContactsForm
 const StyledContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 36.6vw;
-  display: flex;
-  justify-content: space-between;
+  /* height: 36.6vw; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 3vw 5vw;
+  .title{color: #006a71;margin-bottom: 2vw;}
   .contacts{
-    margin-left: 5vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    .title{color: #006a71;}
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    white-space: pre-wrap;
     .block{
-      margin: 1vw 0;
+      margin: 0;
       a, p{
         margin: 0.2em 0;
       }
@@ -58,8 +60,15 @@ const StyledContainer = styled.div`
   }
 
   @media only screen and (max-width: 768px){
-    flex-direction: column;
-    height: unset;
-    padding: 10vw;
+    .title{
+      padding: 10vw 10vw 0;
+    }
+    .contacts{
+      flex-direction: column;
+      padding: 0 10vw 5vw;
+      .block{
+        margin: 5vw 0;
+      }
+    }
   }
 `

@@ -20,20 +20,12 @@
           {
             "link": "/servicos/sistemas-de-aducao",
             "linkTxt": "SISTEMA DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA"
-          },
-          {
-            "link": "/servicos/caixas-de-visita",
-            "linkTxt": "CAIXAS DE VISITA"
           }
         ]
       },
       {
         "link": "/agua",
         "linkTxt": "ÁGUA"
-      },
-      {
-        "link": "/noticias",
-        "linkTxt": "NOTÍCIAS"
       },
       {
         "link": "/contactos",
@@ -43,16 +35,18 @@
     "created": ["https://invisual.pt", "CREATED: INVISUAL.PT"],
     "newsletter": {
       "call": "Newsletter",
-      "title": "Subscreve a nossa newsletter!",
+      "title": "Subscreva a nossa newsletter!",
       "name": "NOME*",
       "email": "EMAIL*",
-      "btn": "Subscrever"
+      "btn": "Subscrever",
+      "success": "OBRIGADO PELA SUA SUBSCRIÇÃO!"
     }
   },
   "footer":{
     "address": [
       "Parque Empresarial Quimiparque Estarreja",
-      "3860-680 Estarreja - Portugal"
+      "3860-680 Estarreja",
+      "Portugal"
     ],
     "recrut": "Recrutamento",
     "privacy": [
@@ -72,8 +66,9 @@
     "school": "INSTITUIÇÃO ESCOLAR",
     "motive": "MOTIVO DE CANDIDATURA*",
     "notes": "OBSERVAÇÕES",
-    "cv": ["CURRICULUM","ADICIONAR CURRICULUM"],
+    "cv": ["CURRÍCULO","ADICIONAR CURRÍCULO"],
     "legenda": "* Campos de preenchimento obrigatório",
-    "btn": "CANDIDATAR-ME"
+    "btn": "CANDIDATAR-ME",
+    "success": "OBRIGADO PELA SUA CANDIDATURA!"
   }
 }

@@ -35,7 +35,7 @@ const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
             <Link to={data.link} className={font.aH + " menu-links"} activeClassName={font.aH + " menu-links-active"} key={"sidemenu-link-" + i}>
               {data.linkTxt}
             </Link>
-           : 
+          :
             <div key={"sidemenu-link-" + i}>
               <button className={!services ? (font.aH + " menu-links services-btn") : (font.aH + " menu-links services-btn menu-links-active")} onClick={()=>{setServices(!services)}}>
                 <img src={openServices} className={!services ? "servBtn" : "servBtn servBtn-turn"} alt="Botão de Abrir Serviços"/>
@@ -55,10 +55,10 @@ const Sidemenu = ({data, open, close, servicesOpen, newsletter}) => {
       <div className="socials">
         <Button dark className={font.aH + " menu-newsletter"} onClick={()=>{newsletter[1](!newsletter[0])}}>{data.newsletter.call}</Button>
         <div className="icons">
-          <a href="/404" className="iconLink"><img src={linked} alt="LinkedIn"/></a>
-          <a href="/404" className="iconLink"><img src={insta} alt="Instagram"/></a>
-          <a href="/404" className="iconLink"><img src={face} alt="Facebook"/></a>
-          <a href="/404" className="iconLink"><img src={tube} alt="Youtube"/></a>
+          <a href="https://pt.linkedin.com/company/insidepipe" className="iconLink"><img src={linked} alt="LinkedIn"/></a>
+          <a href="https://www.instagram.com/insidepipe.pt/" className="iconLink"><img src={insta} alt="Instagram"/></a>
+          <a href="https://www.facebook.com/insidepipe/" className="iconLink"><img src={face} alt="Facebook"/></a>
+          <a href="https://www.youtube.com/channel/UCMea6c1cWEV7bnTfuU0xVUQ" className="iconLink"><img src={tube} alt="Youtube"/></a>
         </div>
         <a href={data.created[0]} noreferrer noopener target="_blank" className={font.aH + " menu-copyright"}>{data.created[1]}</a>
       </div>

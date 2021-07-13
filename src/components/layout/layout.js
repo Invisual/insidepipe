@@ -26,6 +26,7 @@ const Layout = ({ children, servicesOpen }) => {
             name
             email
             btn
+            success
           }
         }
         footer{
@@ -47,6 +48,7 @@ const Layout = ({ children, servicesOpen }) => {
           cv
           legenda
           btn
+          success
         }
       }
     }

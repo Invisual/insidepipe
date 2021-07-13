@@ -10,9 +10,9 @@ import Map from "../components/contactos/map"
 const ContactosPage = ({data}) => (
   <Layout>
     <Seo title="Contactos"/>
-    <TxtLnk data={data.contactosJson.banner1}/>
-    <Form data={data.contactosJson.form}/>
     <Map/>
+    <Form data={data.contactosJson.form}/>
+    {/* <TxtLnk data={data.contactosJson.banner1}/> */}
   </Layout>
 )
 
@@ -23,6 +23,15 @@ export const Json = graphql`
     contactosJson{
       banner1{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED

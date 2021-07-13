@@ -27,16 +27,23 @@ const Footer = ({ data, recrutData }) => {
         {data.address.map((data, i)=>(
           <p className={font.aB + " small"} key={"address" + i}>{data}</p>
         ))}
-        <button onClick={()=>{setRecrut(!recrut)}} className={font.aB + " small"}>{data.recrut}</button>
+        {/* <button onClick={()=>{setRecrut(!recrut)}} className={font.aB + " small"}>{data.recrut}</button> */}
         <CSSTransition in={recrut===true} timeout={350} classNames={"switch"} unmountOnExit>
           <Popup data={recrutData} setPopup={setRecrut}/>
         </CSSTransition>
       </div>
 
       <div className="footer-col">
-        {data.privacy.map((data, i)=>(
-          <p className={font.aB + " small"} key={"privacy" + i}>{data}</p>
-        ))}
+          {data.privacy.map((data, i)=>(
+            i!==2 ?
+            <a href="/assets/PoliticaDeProtecaoDadosInsidepipe.pdf" noreferrer noopener target="_blank" key={"privacy" + i}>
+              <p className={font.aB + " small"}>{data}</p>
+            </a>
+            : 
+            <a href="https://livroreclamacoes.pt/inicio" noreferrer noopener target="_blank" key={"privacy" + i}>
+              <p className={font.aB + " small"}>{data}</p>
+            </a>
+          ))}
       </div>
 
       <div className="footer-col cofinan">

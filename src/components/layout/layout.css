@@ -1,6 +1,11 @@
 /****** Elad Shechter's RESET com extras(body margin e a=block)*******/
 /*** box sizing border-box for all elements ***/
 html{scroll-behavior: smooth;}
+@media only screen and (max-width: 768px){
+  html{
+    scroll-behavior: unset;
+  }
+}
 body{margin:0;position:relative;text-rendering: optimizeLegibility;width: 100%;overscroll-behavior-y: none; overflow-x: hidden;}
 *,
 *::before,

@@ -4,11 +4,13 @@ import * as font from "../../fonts/fonts.module.scss"
 import Container from "../bannerMOD/bannerMOD"
 import ButtonLink from "../layout/linkBtns"
 
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+
 const TxtLnk = ({data, dark, inv}) => {
   return(
-    <Container img={data.img.childImageSharp.gatsbyImageData}>
+    <Container img={!useBreakpoint().mobile ? data.img.childImageSharp.gatsbyImageData : data.imgM.childImageSharp.gatsbyImageData}>
       <StyledTxtLnk inv={inv && +inv}>
-        <h3 className={!dark ? font.aH + " title" : font.aH + " title dark-title"}>{data.title}</h3>
+        <h3 className={!dark ? font.aH + " title" : font.aH + " title dark-title"}>{Array.isArray(data.title) ? <span>{data.title[0]}<span style={{fontStyle: "italic"}}>{data.title[1]}</span></span> : data.title}</h3>
         <p className={!dark ? font.aB + " text" : font.aB + " text dark"}>
           {data.text.map((data, i)=>(
             <span className={i%2!==0 ? font.aM + " bold" : undefined} key={"paragraph" + i}>{data}</span>

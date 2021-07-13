@@ -4,10 +4,12 @@ import * as font from "../../fonts/fonts.module.scss"
 import Container from "../bannerMOD/bannerMOD"
 import ButtonLink from "../layout/linkBtns"
 
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+
 const IconLnk = ({data, dark}) => {
 
   return(
-    <Container img={data.img.childImageSharp.gatsbyImageData}>
+    <Container img={!useBreakpoint().mobile ? data.img.childImageSharp.gatsbyImageData : data.imgM.childImageSharp.gatsbyImageData}>
       <StyledIconLnk>
         <h3 className={font.aH + " title"}>
           <img src={data.icon.publicURL} alt="Icon" className="icon"/>

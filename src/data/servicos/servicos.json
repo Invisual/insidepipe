@@ -2,31 +2,27 @@
   "homelinks": [
     {
       "img": "../../images/services/diagnostico/banner-01.jpg",
+      "imgM": "../../images/services/diagnostico/banner-01M.jpg",
       "title": "DIAGNÓSTICO E CONSULTORIA",
       "icon": "../../images/services/diagnostico/icon.svg",
       "btnLink": "/servicos/diagnostico-e-consultoria",
-      "btnTxt": "VER PROJETOS"
+      "btnTxt": "VER SERVIÇOS"
     },
     {
       "img": "../../images/services/drenagem/banner-01.jpg",
+      "imgM": "../../images/services/drenagem/banner-01M.jpg",
       "title": "SISTEMAS DE DRENAGEM DE ÁGUAS RESIDUAIS, DOMÉSTICAS E PLUVIAIS",
       "icon": "../../images/services/drenagem/icon.svg",
       "btnLink": "/servicos/sistemas-de-drenagem",
-      "btnTxt": "VER PROJETOS"
+      "btnTxt": "VER SERVIÇOS"
     },
     {
       "img": "../../images/services/aducao/banner-01.jpg",
+      "imgM": "../../images/services/aducao/banner-01M.jpg",
       "title": "SISTEMAS DE ADUÇÃO E DISTRIBUIÇÃO DE ÁGUA",
       "icon": "../../images/services/aducao/icon.svg",
       "btnLink": "/servicos/sistemas-de-aducao",
-      "btnTxt": "VER PROJETOS"
-    },
-    {
-      "img": "../../images/services/visita/banner-01.jpg",
-      "title": "CAIXAS DE VISITA",
-      "icon": "../../images/services/visita/icon.svg",
-      "btnLink": "/servicos/caixas-de-visita",
-      "btnTxt": "VER PROJETOS"
+      "btnTxt": "VER SERVIÇOS"
     }
   ]
 }

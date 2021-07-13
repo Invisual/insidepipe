@@ -54,10 +54,9 @@ const DrenagemPage = ({data}) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
-    arrows: true,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>
+    arrows: false,
+    customPaging: i => <button className="dots-custom" aria-label={"Slider: " + i}/>,
+    useTransform: false
   };
 
   return(
@@ -99,6 +98,23 @@ const DrenagemPage = ({data}) => {
           <TxtLnk data={data} dark inv={i%2!==0}/>
         </div>
       ))}
+      {/* <div style={{height: "10px"}}/>
+      <IconLnk data={data.visitaJson.intro}/> */}
+      <div style={{height: "10px"}}/>
+      <StyledSlider>
+        <Slider {...settings}>
+          {data.visitaJson.banner2.map((data, i)=>(
+            <TxtLnk data={data} dark key={"slide" + i}/>
+            ))}
+        </Slider>
+      </StyledSlider>
+      <div style={{height: "10px"}}/>
+      {data.visitaJson.banner34.map((data, i)=>(
+        <div key={i}>
+          {i!==0 && <div style={{height: "10px"}}/>}
+          <TxtLnk data={data} dark inv={i%2===0}/>
+        </div>
+      ))}
     </Layout>
   )
 }
@@ -110,6 +126,7 @@ const StyledSlider = styled.div`
   width: 100%;
   background-color: #006a71;
   .slick-track{
+    position: relative;
     display: flex;
   }
   .slick-list{
@@ -153,6 +170,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         icon{
           publicURL
@@ -162,6 +188,15 @@ export const Json = graphql`
       }
       banner2{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED
@@ -185,6 +220,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         text
         btnLink
@@ -192,6 +236,15 @@ export const Json = graphql`
       }
       banner4{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED
@@ -215,6 +268,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         text
         btnLink
@@ -230,6 +292,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         text
         btnLink
@@ -237,6 +308,92 @@ export const Json = graphql`
       }
       banners789{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+    }
+    visitaJson{
+      intro{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+              quality: 100
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        icon{
+          publicURL
+        }
+        btnLink
+        btnTxt
+      }
+      banner2{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+      banner34{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED

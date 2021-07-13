@@ -33,6 +33,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         icon{
           publicURL
@@ -50,6 +59,15 @@ export const Json = graphql`
             )
           }
         }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
         title
         text
         btnLink
@@ -57,6 +75,15 @@ export const Json = graphql`
       }
       video{
         img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
           childImageSharp{
             gatsbyImageData(
               placeholder: BLURRED

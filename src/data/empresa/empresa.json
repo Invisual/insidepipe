@@ -2,6 +2,7 @@
   "homelinks": [
     {
       "img": "../../images/empresa/banner-01.jpg",
+      "imgM": "../../images/empresa/banner-01M.jpg",
       "title": "Bem-vindos à Insidepipe",
       "text": ["Somos uma empresa de sistemas de reabilitação de condutas sem abertura de vala, que apresenta soluções tecnologicamente inovadoras e oferece respostas eficazes que causem o mínimo impacto no meio envolvente.\n\nDois dos nossos conceitos base são a preocupação pelo ambiente e pelo bem-estar populacional."],
       "btnLink": "",
@@ -9,23 +10,25 @@
     },
     {
       "img": "../../images/empresa/banner-02.jpg",
+      "imgM": "../../images/empresa/banner-02M.jpg",
       "title": "Missão",
-      "text": ["A nossa missão é desenvolver e fornecer serviços inovadores para a reabilitação de sistemas de abastecimento e, drenagem de águas residuais, a um elevado índice de competitividade. Pretendemos ser especialistas na resolução de problemas relevantes, através do uso de tecnologia revolucionária que cause o mínimo impacto no meio envolvente."],
+      "text": ["A nossa missão é desenvolver e fornecer serviços inovadores para a reabilitação de sistemas de abastecimento e, drenagem de águas residuais, com um elevado índice de competitividade. Pretendemos ser especialistas na resolução de problemas relevantes, através do uso de tecnologia revolucionária que cause o mínimo impacto no meio envolvente."],
       "btnLink": "",
       "btnTxt": ""
     },
     {
       "img": "../../images/empresa/banner-03.jpg",
+      "imgM": "../../images/empresa/banner-03M.jpg",
       "title": "Valores",
       "text": [
-        "Sustentamos a nossa cultura e prática na relação com clientes, fornecedores e parceiros, em sólidos valores:\n\n",
-        "Cumprimento das especificações do cliente;\nRespeito pelas normas que regulam o setor, nomeadamente ambientais."
+        "Sustentamos a nossa cultura e prática na relação com clientes, fornecedores e parceiros, em sólidos valores, no cumprimento das especificações do cliente e respeito pelas normas que regulam o setor, nomeadamente ambientais."
       ],
       "btnLink": "",
       "btnTxt": ""
     },
     {
       "img": "../../images/empresa/banner-04.jpg",
+      "imgM": "../../images/empresa/banner-04M.jpg",
       "title": "Mercado de Atuação",
       "text": [
         "",
