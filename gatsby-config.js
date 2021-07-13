@@ -90,7 +90,12 @@ module.exports = {
         },
       },
     },
-    `gatsby-plugin-htaccess`,
+    {
+      resolve: 'gatsby-plugin-htaccess',
+      options: {
+        DisallowSymLinks: true,
+      },
+    },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-offline`,
