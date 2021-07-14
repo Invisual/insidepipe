@@ -28,6 +28,10 @@
         "linkTxt": "ÁGUA"
       },
       {
+        "link": "/noticias",
+        "linkTxt": "NOTÍCIAS"
+      },
+      {
         "link": "/contactos",
         "linkTxt": "CONTACTOS"
       }

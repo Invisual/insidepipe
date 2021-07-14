@@ -92,10 +92,18 @@ const DrenagemPage = ({data}) => {
         </Slider>
       </StyledSlider>
       <div style={{height: "10px"}}/>
-      {data.drenagemJson.banners789.map((data, i)=>(
+      <StyledSlider>
+        <Slider {...settings}>
+          {data.drenagemJson.banner7.map((data, i)=>(
+            <TxtLnk data={data} dark key={"slide" + i}/>
+            ))}
+        </Slider>
+      </StyledSlider>
+      <div style={{height: "10px"}}/>
+      {data.drenagemJson.banners89.map((data, i)=>(
         <div key={i}>
           {i!==0 && <div style={{height: "10px"}}/>}
-          <TxtLnk data={data} dark inv={i%2!==0}/>
+          <TxtLnk data={data} dark inv={i%2===0}/>
         </div>
       ))}
       {/* <div style={{height: "10px"}}/>
@@ -306,7 +314,31 @@ export const Json = graphql`
         btnLink
         btnTxt
       }
-      banners789{
+      banner7{
+        img{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        imgM{
+          childImageSharp{
+            gatsbyImageData(
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+              width: 3840
+            )
+          }
+        }
+        title
+        text
+        btnLink
+        btnTxt
+      }
+      banners89{
         img{
           childImageSharp{
             gatsbyImageData(
