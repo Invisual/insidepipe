@@ -24,7 +24,7 @@ const Video = ({data, dark, inv}) => {
         <Button onClick={playVideo} className={font.aH} dark={dark && +dark}>{data.btnTxt}</Button>
       </StyledVideo>
 
-      <Videoframe  ref={vid} width="100%" height="100%" src={data.btnLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Videoframe>
+      <Videoframe ref={vid} width="100%" height="100%" src={data.btnLink} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></Videoframe>
     </Container>
   )
 }
