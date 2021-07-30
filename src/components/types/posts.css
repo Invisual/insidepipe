@@ -12,3 +12,7 @@ h3 {
 p {
   font-family: "Avenir-Book", sans-serif;
 }
+a {
+  font-family: "Avenir-Heavy", sans-serif;
+  text-transform: uppercase;
+}

@@ -65,8 +65,15 @@ const StyledContent = styled.div`
     margin: 1em 0;
   }
   a{
-    display: inline-block;
-    text-decoration: underline;
+    color: #ffffff;
+    background: #006a71;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 0.8em 3em;
+    width: fit-content;
+    margin: auto;
   }
 
   @media only screen and (max-width: 768px){
