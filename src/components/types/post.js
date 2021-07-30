@@ -5,6 +5,8 @@ import Container from "../bannerMOD/bannerMOD"
 import { Button } from "../layout/linkBtns"
 import AnimateHeight from 'react-animate-height';
 
+import { useBreakpoint } from "gatsby-plugin-breakpoints"
+
 import "./posts.css"
 
 const Post = ({data, slug, selected, text}) => {
@@ -19,7 +21,7 @@ const Post = ({data, slug, selected, text}) => {
   
   return(
     <>
-    <Container img={data.image.childImageSharp.gatsbyImageData}>
+    <Container img={!useBreakpoint().mobile ? data.image.childImageSharp.gatsbyImageData : data.imageM.childImageSharp.gatsbyImageData}>
       <StyledPost>
         <h3 className={font.aH + " title"}>{data.title}</h3>
         <Button onClick={setPost} className={font.aH}>{data.btn}</Button>

@@ -1,6 +1,7 @@
 ---
 title: "Insidepipe em destaque na Revista Sábado"
 image: "./media/002/01.jpg"
+imageM: "./media/002/banner-01M.jpg"
 id: "002"
 date: "2021-07-26" #tem que ser formato YYYY-MM-DD
 data: "26 julho 2021"

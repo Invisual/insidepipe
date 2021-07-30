@@ -1,6 +1,7 @@
 ---
 title: "Insidepipe em destaque na Revista FLASH!"
 image: "./media/003/01.jpg"
+imageM: "./media/003/01M.jpg"
 id: "003"
 date: "2021-07-27" #tem que ser formato YYYY-MM-DD
 data: "27 julho 2021"

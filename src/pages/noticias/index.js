@@ -39,6 +39,15 @@ export const Json = graphql`
                 )
               }
             }
+            imageM {
+              childImageSharp{
+                gatsbyImageData(
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                  width: 3840
+                )
+              }
+            }
             id
             date(formatString: "DD-MM-YYYY")
             data

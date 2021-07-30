@@ -1,6 +1,7 @@
 ---
 title: "Insidepipe em destaque no Jornal de Negócios"
 image: "./media/004/01.jpg"
+imageM: "./media/004/01M.jpg"
 id: "004"
 date: "2021-07-28" #tem que ser formato YYYY-MM-DD
 data: "28 julho 2021"

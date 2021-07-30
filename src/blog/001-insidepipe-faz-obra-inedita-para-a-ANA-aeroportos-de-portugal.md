@@ -1,6 +1,7 @@
 ---
 title: "Insidepipe faz obra inédita para a ANA Aeroportos de Portugal"
 image: "./media/001/01.jpg"
+imageM: "./media/001/01.jpg"
 id: "001"
 date: "2021-07-14" #tem que ser formato YYYY-MM-DD
 data: "14 julho 2021"
