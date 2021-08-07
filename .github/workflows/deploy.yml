@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up Nodejs 14.17.1
+      - name: Set up Nodejs ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: 14.17.1
+          node-version: ${{ matrix.node-version }}
 
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v2.3.9
         with:
           start: npm run start
           wait-on: "http://localhost:8000"
