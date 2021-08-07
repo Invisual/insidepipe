@@ -20,16 +20,13 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        
-      - name: Install Gatsby
-        run: npm install gatsby-cli
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2.3.9
+        uses: cypress-io/github-action@v2.3.8
         with:
-          start: npm run develop
-          wait-on: 'http://localhost:8000'
-          config: baseUrl=http://localhost:8000
+          start: npm run start
+          wait-on: "http://localhost:8000"
+          env: APP_URL=http://localhost:8000
 
       - name: Build Project
         run: npm run build --if-present
