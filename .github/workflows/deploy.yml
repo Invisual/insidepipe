@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up Nodejs ${{ matrix.node-version }}
+      - name: Set up Nodejs 14.17.1
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 14.17.1
 
       - name: Checkout repository
         uses: actions/checkout@v2
