@@ -5,7 +5,7 @@ on:
       - production
 jobs:
   Cypress-Tests-And-Deploy-Cpanel:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Set up Nodejs ${{ matrix.node-version }}
@@ -25,7 +25,7 @@ jobs:
         run: npm install gatsby-cli
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v2.6.1
         with:
           start: npm run develop
           wait-on: 'http://localhost:8000'
