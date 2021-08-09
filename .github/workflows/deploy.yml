@@ -26,7 +26,7 @@ jobs:
         with:
           start: npm run start
           wait-on: "http://localhost:8000"
-          env: APP_URL=http://localhost:8000
+          wait-on-timeout: 300
 
       - name: Build Project
         run: npm run build --if-present
