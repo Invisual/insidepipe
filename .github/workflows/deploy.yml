@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v2.4.0
+        uses: cypress-io/github-action@v2.11.6
         with:
           start: npm run start
           wait-on: "http://localhost:8000"
