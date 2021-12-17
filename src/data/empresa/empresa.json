@@ -9,6 +9,16 @@
       "btnTxt": ""
     },
     {
+      "video": true,
+      "videoSrc": "videos/insidepipe-web.mp4",
+      "img": "../../images/empresa/banner-01.jpg",
+      "imgM": "../../images/empresa/banner-01M.jpg",
+      "title": "Bem-vindos à Insidepipe",
+      "text": ["Somos uma empresa de sistemas de reabilitação de condutas sem abertura de vala, que apresenta soluções tecnologicamente inovadoras e oferece respostas eficazes que causem o mínimo impacto no meio envolvente.\n\nDois dos nossos conceitos base são a preocupação pelo ambiente e pelo bem-estar populacional."],
+      "btnLink": "",
+      "btnTxt": ""
+    },
+    {
       "img": "../../images/empresa/banner-02.jpg",
       "imgM": "../../images/empresa/banner-02M.jpg",
       "title": "Missão",
